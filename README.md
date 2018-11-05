@@ -3,7 +3,6 @@ PSIT's project repository.
 
 ## Built-With
 * Placeholder
-* Placeholder
 
 ## Authors
 * 61070173 - [phwt(ทิ)](https://github.com/phwt)
