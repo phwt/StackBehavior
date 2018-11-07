@@ -6,7 +6,9 @@
 * Size - 171.43 GB
 
 ## Built-With
-* Love
+* Python 3.7
+    * **Used libraries**
+    * TBD
 
 ## Authors
 * 61070173 - [phwt(ทิ)](https://github.com/phwt) >> [Facebook](https://www.facebook.com/phwt.smwt)
