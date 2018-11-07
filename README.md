@@ -14,6 +14,7 @@ Analyze languages popularity by tag(s) defined in questions. Such as `angular`, 
 
 ### User Participations
 Analyze user participation using user's acquired badges.
+
 **Example** - Out of all users, How many percentages of users have asked good questions? (From `Nice Question` badge)
 
 
