@@ -1,9 +1,9 @@
 # StackBehavior
-Data Analysis project for analyzing questions, answers, comments and overall user's behavior on StackOverflow site.
+Data Analysis project for analyzing questions, answers, comments and overall user's behavior on the StackOverflow site.
 
 ## Objectives
 ### Comments' Positive and Negative context
-Analyze user behavior based on positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` are considered to be negative.
+Analyze user behavior based on the positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` are considered to be negative.
 **Example** - What is the ratio of positive, negative and neutral comments?
 
 ### Languages popularity
@@ -12,7 +12,7 @@ Analyze languages popularity by tag(s) defined in questions. Such as `angular`, 
 
 ### User Participations
 Analyze user participation using user's acquired badges.
-**Example** - Out of all users, How many percentage of users have asked a good questions? (From `Nice Question` badge)
+**Example** - Out of all users, How many percentages of users have asked good questions? (From `Nice Question` badge)
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
