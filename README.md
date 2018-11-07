@@ -2,7 +2,7 @@
  Analyzing questions, comments and user's behavior in StackOverflow site.
 
 ## Data Sources
-#### [Google Public Dataset - StackOverflow](https://console.cloud.google.com/marketplace/details/stack-exchange/stack-overflow)
+#### [StackExchange Public Data - StackOverflow](https://archive.org/download/stackexchange)
 * Size - 171.43 GB
 
 ## Built-With
