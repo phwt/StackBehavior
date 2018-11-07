@@ -1,5 +1,5 @@
 # StackBehavior
- Analyzing questions, comments and user's behavior in StackOver flow site.
+ Analyzing questions, comments and user's behavior in StackOverflow site.
 
 ## Built-With
 * Love
