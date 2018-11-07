@@ -3,7 +3,7 @@ Data Analysis project for analyzing questions, answers, comments and overall use
 
 ## Objectives
 ### Comments' Positive and Negative context
-Analyze user behavior based on the positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` are considered to be negative.
+Analyze user behavior based on the positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` (State the low quality of question) are considered to be negative.
 
 **Example** - What is the ratio of positive, negative and neutral comments?
 
