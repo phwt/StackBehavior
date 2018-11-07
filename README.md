@@ -1,14 +1,12 @@
 # StackBehavior
- Analyzing questions, comments and user's behavior in StackOverflow site.
+Data Analysis project for analyzing questions, answers, comments and overall user's behavior on StackOverflow site.
 
 ## Data Sources
 #### [StackExchange Public Data - StackOverflow](https://archive.org/download/stackexchange)
 * Size - 171.43 GB
 
 ## Built-With
-* Python 3.7
-    * **Used libraries**
-    * TBD
+* TBD
 
 ## Authors
 * นายภูวทิตต์ สัมมาวิวัฒน์ - 61070173 - [phwt](https://github.com/phwt)
