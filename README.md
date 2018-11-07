@@ -1,8 +1,8 @@
-# PSIT-Project-2018
-PSIT's project repository.
+# StackBehavior
+ Analyzing questions, comments and user's behavior in StackOver flow site.
 
 ## Built-With
-* Placeholder
+* Love
 
 ## Authors
 * 61070173 - [phwt(ทิ)](https://github.com/phwt) >> [Facebook](https://www.facebook.com/phwt.smwt)
