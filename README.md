@@ -4,15 +4,18 @@ Data Analysis project for analyzing questions, answers, comments and overall use
 ## Objectives
 ### Comments' Positive and Negative context
 Analyze user behavior based on the positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` are considered to be negative.
+
 **Example** - What is the ratio of positive, negative and neutral comments?
 
 ### Languages popularity
 Analyze languages popularity by tag(s) defined in questions. Such as `angular`, `c#` and other programming related tags.
+
 **Example** - What is the most used language out of all question asked?
 
 ### User Participations
 Analyze user participation using user's acquired badges.
 **Example** - Out of all users, How many percentages of users have asked good questions? (From `Nice Question` badge)
+
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
