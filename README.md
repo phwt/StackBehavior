@@ -2,11 +2,11 @@
 Data Analysis project for analyzing questions, answers, comments and overall user's behavior on StackOverflow site.
 
 ## Objectives
-### Analyze the Positive and Negative context of the comments
-Analyze user behavior based on positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` are considered to be negative.
+#### Analyze the Positive and Negative context of the comments
+    Analyze user behavior based on positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` are considered to be negative.
 
-### Analyze languages popularity based on tag(s) used in questions
-Analyze languages popularity by tag(s) defined in questions. Such as `angular`, `c#` and other programming related tags.
+#### Analyze languages popularity based on tag(s) used in questions
+    Analyze languages popularity by tag(s) defined in questions. Such as `angular`, `c#` and other programming related tags.
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
