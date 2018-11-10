@@ -1,4 +1,4 @@
-""" User World Map
+""" StackBehavior - User World Map
 This module visualize user count by country into world map using pygal library
 """
 import pygal
