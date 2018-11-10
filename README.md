@@ -30,7 +30,7 @@ Analyze user participation using user's acquired badges.
 
 ## Built-With
 * Python `3.7.0`
-    * matplotlib `3.0.0`
+    * pygal `2.0.0`
 * Google BigQuery
 
 ## Authors
