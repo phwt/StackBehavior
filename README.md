@@ -29,7 +29,9 @@ Analyze user participation using user's acquired badges.
 ##### Total Size - 59.87 GB
 
 ## Built-With
-* TBD
+* Python `3.7.0`
+    * matplotlib `3.0.0`
+* Google BigQuery
 
 ## Authors
 * นายภูวทิตต์ สัมมาวิวัฒน์ - 61070173 - [phwt](https://github.com/phwt)
