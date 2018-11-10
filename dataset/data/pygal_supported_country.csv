@@ -17,19 +17,19 @@ bg,Bulgaria
 bh,Bahrain
 bi,Burundi
 bj,Benin
-bn,Brunei Darussalam
-bo,Bolivia, Plurinational State of
+bn,Brunei
+bo,Bolivia
 br,Brazil
 bt,Bhutan
 bw,Botswana
 by,Belarus
 bz,Belize
 ca,Canada
-cd,Congo, the Democratic Republic of the
+cd,Congo
 cf,Central African Republic
 cg,Congo
 ch,Switzerland
-ci,Cote d’Ivoire
+ci,Ivory Coast
 cl,Chile
 cm,Cameroon
 cn,China
@@ -77,7 +77,7 @@ ie,Ireland
 il,Israel
 in,India
 iq,Iraq
-ir,Iran, Islamic Republic of
+ir,Iran
 is,Iceland
 it,Italy
 jm,Jamaica
@@ -86,11 +86,11 @@ jp,Japan
 ke,Kenya
 kg,Kyrgyzstan
 kh,Cambodia
-kp,Korea, Democratic People’s Republic of
-kr,Korea, Republic of
+kp,North Korea
+kr,South Korea
 kw,Kuwait
 kz,Kazakhstan
-la,Lao People’s Democratic Republic
+la,Laos
 lb,Lebanon
 li,Liechtenstein
 lk,Sri Lanka
@@ -99,13 +99,13 @@ ls,Lesotho
 lt,Lithuania
 lu,Luxembourg
 lv,Latvia
-ly,Libyan Arab Jamahiriya
+ly,Libya
 ma,Morocco
 mc,Monaco
-md,Moldova, Republic of
+md,Moldova
 me,Montenegro
 mg,Madagascar
-mk,Macedonia, the former Yugoslav Republic of
+mk,Macedonia (FYROM)
 ml,Mali
 mm,Myanmar
 mn,Mongolia
@@ -134,20 +134,20 @@ ph,Philippines
 pk,Pakistan
 pl,Poland
 pr,Puerto Rico
-ps,Palestine, State of
+ps,Palestine
 pt,Portugal
 py,Paraguay
 re,Reunion
 ro,Romania
 rs,Serbia
-ru,Russian Federation
+ru,Russia
 rw,Rwanda
 sa,Saudi Arabia
 sc,Seychelles
 sd,Sudan
 se,Sweden
 sg,Singapore
-sh,Saint Helena, Ascension and Tristan da Cunha
+sh,Saint Helena
 si,Slovenia
 sk,Slovakia
 sl,Sierra Leone
@@ -167,18 +167,76 @@ tl,Timor-Leste
 tm,Turkmenistan
 tn,Tunisia
 tr,Turkey
-tw,Taiwan (Republic of China)
-tz,Tanzania, United Republic of
+tw,Taiwan 
+tz,Tanzania
 ua,Ukraine
 ug,Uganda
 us,United States
 uy,Uruguay
 uz,Uzbekistan
-va,Holy See (Vatican City State)
-ve,Venezuela, Bolivarian Republic of
-vn,Viet Nam
+va,Vatican City
+ve,Venezuela
+vn,Vietnam
 ye,Yemen
 yt,Mayotte
 za,South Africa
 zm,Zambia
 zw,Zimbabwe
+us,USA
+mk,FYROM
+ru,??????
+de,deutschland
+gb,uk
+gb,gb
+us,united state
+us,Alabama
+us,Alaska
+us,Arizona
+us,Arkansas
+us,California
+us,Colorado
+us,Connecticut
+us,Delaware
+us,District of Columbia
+us,Florida
+us,Georgia
+us,Hawaii
+us,Idaho
+us,Illinois
+us,Indiana
+us,Iowa
+us,Kansas
+us,Kentucky
+us,Louisiana
+us,Maine
+us,Montana
+us,Nebraska
+us,Nevada
+us,New Hampshire
+us,New Jersey
+us,New Mexico
+us,New York
+us,North Carolina
+us,North Dakota
+us,Ohio
+us,Oklahoma
+us,Oregon
+us,Maryland
+us,Massachusetts
+us,Michigan
+us,Minnesota
+us,Mississippi
+us,Missouri
+us,Pennsylvania
+us,Rhode Island
+us,South Carolina
+us,South Dakota
+us,Tennessee
+us,Texas
+us,Utah
+us,Vermont
+us,Virginia
+us,Washington
+us,West Virginia
+us,Wisconsin
+us,Wyoming

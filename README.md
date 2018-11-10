@@ -34,8 +34,6 @@ Analyze user participation using user's acquired badges.
 * Google Cloud Platform
     * BigQuery
     * Storage
-* Google Maps Platform
-    * Geocoding API
 
 ## Authors
 * นายภูวทิตต์ สัมมาวิวัฒน์ - 61070173 - [phwt](https://github.com/phwt)
