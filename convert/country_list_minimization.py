@@ -12,6 +12,8 @@ import requests
 from progress.bar import IncrementalBar
 
 data_dict = {}
+# source, output = './dataset/data/user_location_raw.csv', './dataset/data/user_location_min.csv'
+source, output = './dataset/data/reputation_raw.csv', './dataset/data/reputation_min.csv'
 
 def check_geo(txt):
     """ Further check for country name using Google Geocoding """
@@ -29,10 +31,10 @@ def check(txt):
 
 def read():
     """ Read 'user_location_raw.csv' file """
-    with open('./dataset/data/user_location_raw.csv', encoding="utf8") as csvfile:
+    with open(source, encoding="utf8") as csvfile:
         row_count = sum(1 for row in csvfile)
     bar = IncrementalBar('Reading', max=row_count)
-    with open('./dataset/data/user_location_raw.csv', encoding="utf8") as csvfile:
+    with open(source, encoding="utf8") as csvfile:
         readCSV = csv.reader(csvfile, delimiter=',')
         for row in readCSV:
             if check(row[0]) != None:
@@ -51,7 +53,7 @@ def add_dict(data):
 def write_file():
     """ Write data_dict to file """
     bar = IncrementalBar('Writing', max=len(data_dict))
-    with open('./dataset/data/user_location_min.csv', 'a', encoding="utf8", newline='') as csvfile:
+    with open(output, 'a', encoding="utf8", newline='') as csvfile:
         for i, j in data_dict.items():
             writer = csv.writer(csvfile)
             writer.writerow([i, j])
