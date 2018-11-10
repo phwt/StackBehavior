@@ -1,5 +1,5 @@
 """ User World Map
-This module visualize user count by country in to world map using pygal library
+This module visualize user count by country into world map using pygal library
 """
 import pygal
 import csv
