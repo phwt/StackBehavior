@@ -17,7 +17,7 @@ Analyze user participation using user's acquired badges.
 
 **Example** - Out of all users, How many percentages of users have asked good questions? (From `Nice Question` badge)
 
-![Alt text](./visualize/output/user_chart.svg)
+![Alt text](./visualize/output/user_chart.svg =300x)
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
