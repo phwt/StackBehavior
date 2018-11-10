@@ -17,6 +17,7 @@ Analyze user participation using user's acquired badges.
 
 **Example** - Out of all users, How many percentages of users have asked good questions? (From `Nice Question` badge)
 
+![User count](https://raw.githubusercontent.com/phwt/StackBehavior/master/visualize/output/user_world_map.svg "User count")
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
