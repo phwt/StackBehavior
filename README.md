@@ -3,7 +3,7 @@ Data Analysis project for analyzing questions, answers, comments and overall use
 
 ## Objectives
 ### Comments' Positive and Negative context
-Analyze user behavior based on the positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` are considered to be negative.
+Analyze user behavior based on the positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` (State the low quality of question) are considered to be negative.
 
 **Example** - What is the ratio of positive, negative and neutral comments?
 
@@ -29,10 +29,17 @@ Analyze user participation using user's acquired badges.
 ##### Total Size - 59.87 GB
 
 ## Built-With
-* TBD
+* Python `3.7.0`
+    * pygal `2.0.0`
+* Google Cloud Platform
+    * BigQuery
+    * Storage
 
 ## Authors
 * นายภูวทิตต์ สัมมาวิวัฒน์ - 61070173 - [phwt](https://github.com/phwt)
 * นายวีรพงศ์ ทันจันทึก - 61070213 - [veerapong76](https://github.com/veerapong76)
 * นายณภัทร พรบุญเรือง - 61070044 - [61070044](https://github.com/61070044)
 * นายสหัสวรรษ หิรัญเพชร - 61070239 - [maizerocom](https://github.com/maizerocom)
+
+[![forthebadge](https://forthebadge.com/images/badges/made-with-python.svg)](https://forthebadge.com)
+[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com) 
