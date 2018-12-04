@@ -26,8 +26,8 @@ FROM (
     FROM
         `bigquery-public-data.stackoverflow.posts_questions`
     WHERE
-        EXTRACT(YEAR FROM creation_date) = 2008 AND
-        EXTRACT(QUARTER FROM creation_date) = 1
+        EXTRACT(YEAR FROM creation_date) = 2008
+        -- AND EXTRACT(QUARTER FROM creation_date) = 1
 )
 WHERE
     single_tags != ""
