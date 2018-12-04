@@ -2,8 +2,8 @@
 Data Analysis project for analyzing questions, answers, comments and overall user's behavior on the StackOverflow site.
 
 ## Objectives
-### Programming Languages' popularity over time
-Analyze lanuguges popularity by tag(s) defined in asked questions.
+### Programming Topics' popularity over time
+Analyze topics popularity by tag(s) defined in asked questions.
 
 ### Average user activity in a year
 Analyze how time in a year affect user's activity on the site.
@@ -22,7 +22,7 @@ Analyze user behavior based on the positive and negative context of the comments
 * **`post_answers`** - Submitted Answer - 20.17 GB
 * **`tags`** - Used tags in questions - 2.08 MB
 * **`users`** - User's info - 1.4 GB
-##### Data Range - `2008 - 2018`
+##### Data Range - `Q3 2008 - Q3 2018`
 ##### Total Size - 59.87 GB
 
 ## Built-With
