@@ -7,18 +7,18 @@ Example:
 
 """
 import csv
-import json
-import requests
+# import json
+# import requests
 from progress.bar import IncrementalBar
 
 data_dict = {}
 # source, output = './dataset/data/user_location_raw.csv', './dataset/data/user_location_min.csv'
 source, output = './dataset/data/reputation_raw.csv', './dataset/data/reputation_min.csv'
 
-def check_geo(txt):
-    """ Further check for country name using Google Geocoding """
-    url = "https://maps.googleapis.com/maps/api/geocode/json?address="+txt+"&key=" #Not Used anymore
-    return requests.get(url).json()['results'][0]['address_components'][-1]['short_name'].lower()
+# def check_geo(txt):
+    # """ Further check for country name using Google Geocoding """
+    # url = "https://maps.googleapis.com/maps/api/geocode/json?address="+txt+"&key=" #Not Used anymore
+    # return requests.get(url).json()['results'][0]['address_components'][-1]['short_name'].lower()
 
 def check(txt):
     """ Check if the input country name match any data in 'pygal_supported_country.csv' or not """
