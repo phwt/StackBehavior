@@ -32,3 +32,4 @@ FROM (
 WHERE
   tags IN ('android', 'angular', 'c#', 'c++', 'html', 'ios', 'iphone', 'java', 'javascript', 'jquery', 'php', 'python', 'sql', 'swift', 'windows', 'wordpress', 'xcode')
 GROUP BY tags
+ORDER BY tags
