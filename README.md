@@ -2,20 +2,14 @@
 Data Analysis project for analyzing questions, answers, comments and overall user's behavior on the StackOverflow site.
 
 ## Objectives
+### Programming Languages' popularity over time
+Analyze lanuguges popularity by tag(s) defined in asked questions.
+
+### Average user activity in a year
+Analyze how time in a year affect user's activity on the site.
+
 ### Comments' Positive and Negative context
-Analyze user behavior based on the positive and negative context of the comments. Such as `+1`, `Thanks!` are considered to be positive, `-1`, `Possible duplicate of` (State the low quality of question) are considered to be negative.
-
-**Example** - What is the ratio of positive, negative and neutral comments?
-
-### Languages popularity
-Analyze languages popularity by tag(s) defined in questions. Such as `angular`, `c#` and other programming related tags.
-
-**Example** - What is the most used language out of all question asked?
-
-### User Participations
-Analyze user participation using user's acquired badges.
-
-**Example** - Out of all users, How many percentages of users have asked good questions? (From `Nice Question` badge)
+Analyze user behavior based on the positive and negative context of the comments.
 
 ### Visualization Example
 ![Alt text](./visualize/output/user_chart.svg)
@@ -28,6 +22,7 @@ Analyze user participation using user's acquired badges.
 * **`post_answers`** - Submitted Answer - 20.17 GB
 * **`tags`** - Used tags in questions - 2.08 MB
 * **`users`** - User's info - 1.4 GB
+##### Data Range - `2008 - 2018`
 ##### Total Size - 59.87 GB
 
 ## Built-With
