@@ -1,8 +1,8 @@
 SELECT
-    tags, COUNT(*) AS total
+    single_tags, COUNT(*) AS total
 FROM (
     SELECT
-        tags, creation_date,
+        creation_date,
     CASE
         WHEN LOWER(tags) LIKE "%android%" THEN "android"
         WHEN LOWER(tags) LIKE "%angular%" THEN "angular"
@@ -21,8 +21,8 @@ FROM (
         WHEN LOWER(tags) LIKE "%windows%" THEN "windows"
         WHEN LOWER(tags) LIKE "%wordpress%" THEN "wordpress"
         WHEN LOWER(tags) LIKE "%xcode%" THEN "xcode"
-        ELSE tags
-    END
+        ELSE ""
+    END AS single_tags
     FROM
         `bigquery-public-data.stackoverflow.posts_questions`
     WHERE
@@ -30,6 +30,6 @@ FROM (
         EXTRACT(QUARTER FROM creation_date) = 1
 )
 WHERE
-  tags IN ('android', 'angular', 'c#', 'c++', 'html', 'ios', 'iphone', 'java', 'javascript', 'jquery', 'php', 'python', 'sql', 'swift', 'windows', 'wordpress', 'xcode')
-GROUP BY tags
-ORDER BY tags
+    single_tags != ""
+GROUP BY single_tags
+ORDER BY single_tags
