@@ -1,4 +1,4 @@
-""" StackBehavior - Tags Merge
+""" StackBehavior - Tags Merge Time Based
 This module is for merging tags count(s) files into one file.
 """
 import csv
