@@ -24,7 +24,7 @@ Analyze user behavior based on the positive and negative context of the comments
 * **`users`** - User's info - 1.4 GB
 ##### Data Range - 2008 Q3 - 2018 Q3* (10 Years)
 ##### Total Size - 59.87 GB
-* Q4 2018 Data is excluded because of incomplete data.
+\* 2018 Q4 Data is excluded because of incomplete data.
 
 
 ## Built-With
