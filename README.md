@@ -11,7 +11,7 @@ Analyze how time in a year affect user's activity on the site.
 ### Comments' Positive and Negative context
 Analyze user behavior based on the positive and negative context of the comments.
 
-### Visualization Example
+### Visualization Example (Not used)
 ![Alt text](./visualize/output/user_chart.svg)
 
 ## Data Sources
