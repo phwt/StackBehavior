@@ -18,7 +18,8 @@ def readFile():
 
 def getCount():
     """ Read 'question_count_by_year_quarter.csv' and store """
-    path = './dataset/data/question_count_by_year_quarter.csv'
+    # path = './dataset/data/question_count_by_year_quarter.csv'
+    path = './dataset/data/question_count_by_year.csv'
     with open(path, encoding="utf8") as csvfile:
         readCSV = csv.reader(csvfile, delimiter=',')
         next(readCSV, None) #Skip header
@@ -39,7 +40,7 @@ def compare(topics):
 
 def write_file(year, quarter, topic, count, percentage):
     """ Write data from csv reader """
-    with open('./dataset/data/tag_counts/tags_count_topic_based_percentage.csv', 'a', encoding="utf8", newline='') as csvfile:
+    with open('./dataset/data/tag_counts/tags_count_topic_based_percentage_year.csv', 'a', encoding="utf8", newline='') as csvfile:
         writer = csv.writer(csvfile)
         writer.writerow([year, quarter, topic, count, percentage])
     csvfile.close()
