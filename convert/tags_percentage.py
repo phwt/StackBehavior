@@ -34,7 +34,11 @@ def percentage(data, count):
     return [(i, round((j/count.get(i))*100, 4)) for i, j in data]
 
 def writeFile(data, output):
-    """ Write calculated percentage with tags name to the output file """
+    """ Write calculated percentage with tags name to the output file
+        Arguments:
+            `data` - Data to be written (list)
+            `output` - Output file's path (string)
+    """
     with open(output, 'a', encoding="utf8", newline='') as csvfile:
         writer = csv.writer(csvfile)
         [writer.writerow(i) for i in data]
@@ -43,7 +47,6 @@ def writeFile(data, output):
 def convertSingle(source, output):
     """ Read single file, convert to percentage then write to output file
     (For debugging purpose only)
-
         Arguments:
             `source` - Source file's path (string)
             `output` - Output(Result) file's path (string)
@@ -54,14 +57,6 @@ def convertSingle(source, output):
     tags_count = readInt(source)
     converted = percentage(tags_count, question_count)
     writeFile(converted, output)
-    # print(converted)
-    # percentage(tags_count, question_count)
-    # for i in tags_count:
 
 convertSingle('./dataset/data/tag_counts/topic_based_year/TAGS_ANDROID.csv', \
 './dataset/data/tag_counts/tags_count_test.csv')
-# './dataset/data/question_count_by_year.csv'
-# './dataset/data/tag_counts/tags_count_topic_based_percentage_year.csv'
-# print(readInt('./dataset/data/tag_counts/topic_based_year/TAGS_ANDROID.csv'))
-# print(readCount())
-# print(question_count)
