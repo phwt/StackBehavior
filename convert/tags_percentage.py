@@ -9,7 +9,6 @@ def readInt(path, header=True):
         Arguments:
             `path` - Input file's path (string)
             `header` - Skip the header (boolean - default `True`)
-
         Return:
             A list of every row read from `path` file
             Sample - [(2008, 40), (2009, 2029)...(2018, 99904)]
@@ -25,7 +24,6 @@ def percentage(data, count):
         Arguments:
             `data` - Data to be compared (list)
             `count` - Question count data (list)
-
         Return:
             A list of compared data in format of (year, percentage) in four decimal
             Sample - [(2008, 0.0686), (2009, 0.5903)...(2018, 6.4591)]
@@ -46,11 +44,9 @@ def writeFile(data, output):
 
 def convertSingle(source, output):
     """ Read single file, convert to percentage then write to output file
-    (For debugging purpose only)
         Arguments:
             `source` - Source file's path (string)
             `output` - Output(Result) file's path (string)
-
         Return: None
     """
     question_count = readInt('./dataset/data/question_count_by_year.csv')
@@ -58,5 +54,6 @@ def convertSingle(source, output):
     converted = percentage(tags_count, question_count)
     writeFile(converted, output)
 
+# Below this line is for debugging purpose only
 # convertSingle('./dataset/data/tag_counts/topic_based_year/TAGS_ANDROID.csv', \
 # './dataset/data/tag_counts/tags_count_test.csv')
