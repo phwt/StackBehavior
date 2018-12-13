@@ -4,7 +4,8 @@ This module visualize user count by country into bar chart using pygal library
 import pygal
 import csv
 
-source = './dataset/data/tag_counts/tags_count_topic_based_percentage.csv'
+# source = './dataset/data/tag_counts/tags_count_topic_based_percentage.csv'
+source = './dataset/data/tag_counts/tags_count_topic_based_percentage_year.csv'
 output = './visualize/output/topic_popularity/test.svg'
 
 def getTopics():
@@ -24,9 +25,9 @@ def read():
     with open(source, encoding="utf8") as csvfile:
         readCSV = csv.reader(csvfile, delimiter=',')
         for row in readCSV:
-            if row[2] == "ANDROID":
-                time.append(row[0] + " " + row[1])
-                percentage.append(float(row[4]))
+            if row[1] == "ANDROID":
+                time.append(row[0])
+                percentage.append(float(row[3]))
     visualize("Android", time, percentage)
 
 def visualize(title, time, percentage):
