@@ -1,0 +1,22 @@
+SELECT
+  location, COUNT(*) AS count
+FROM
+  `bigquery-public-data.stackoverflow.users`
+WHERE
+  location NOT LIKE ""
+GROUP BY
+  location
+HAVING
+  COUNT(*) > 1
+ORDER BY
+  count
+
+SELECT
+  text
+FROM
+  `bigquery-public-data.stackoverflow.comments`
+WHERE
+  LOWER(text) LIKE '%possible duplicate%'
+LIMIT
+  200
+
