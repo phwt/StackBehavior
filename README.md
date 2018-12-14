@@ -12,18 +12,18 @@ Analyze how time in a year affect user's activity on the site.
 Analyze user behavior based on the positive and negative context of the comments.
 
 ## To-do
-1. [ ] **Query and Download data**
+1. [X] **Query and Download data**
    - [X] Topics
    - [X] Users' Activity
-   - [ ] Comments' context - *Working in Progress*
+   - [X] Comments' context
 2. [ ] **Convert data into visualiztion-ready format**
    - [X] Topics
    - [X] Users' Activity
-   - [ ] Comments' context
+   - [ ] Comments' context - *Working in Progress*
 3. [ ] **Data Visualization**
    - [X] Topics
    - [X] Users' Activity
-   - [ ] Comments' context
+   - [ ] Comments' context - *Working in Progress*
 4. [ ] **Presentation**
    - [ ] Website - *Working in Progress*
    - [ ] Video
