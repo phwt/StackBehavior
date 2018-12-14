@@ -37,8 +37,12 @@ def visualize(title, output):
     # line_chart.add('SublimeText', [None, 0.0003, 0.0004, 0.0042, 0.0504, 0.0838, 0.0862, 0.0694, 0.0637, 0.0506, 0.0431])
     # line_chart.add('VIM', [0.2983, 0.297, 0.239, 0.2329, 0.2074, 0.1839, 0.1698, 0.1391, 0.1105, 0.0955, 0.0835])
 
-    line_chart.add('Raspberry Pi', [None, None, None, 0.0002, 0.0089, 0.0488, 0.0683, 0.1032, 0.1232, 0.1469, 0.1649])
-    line_chart.add('Arduino', [0.0137, 0.0145, 0.0133, 0.0225, 0.0496, 0.0753, 0.089, 0.0988, 0.118, 0.1105, 0.1058])
+    # line_chart.add('Raspberry Pi', [None, None, None, 0.0002, 0.0089, 0.0488, 0.0683, 0.1032, 0.1232, 0.1469, 0.1649])
+    # line_chart.add('Arduino', [0.0137, 0.0145, 0.0133, 0.0225, 0.0496, 0.0753, 0.089, 0.0988, 0.118, 0.1105, 0.1058])
+
+    line_chart.add('NGINX', [0.0291, 0.0349, 0.0601, 0.0787, 0.115, 0.1437, 0.1878, 0.2207, 0.2564, 0.2989, 0.3214])
+    line_chart.add('Apache', [0.739, 0.6438, 0.6502, 0.6459, 0.7122, 0.7728, 0.9252, 1.1733, 1.4358, 1.5501, 1.6617])
+    line_chart.add('IIS', [1.0407, 0.7023, 0.5071, 0.4408, 0.3531, 0.299, 0.2423, 0.2289, 0.2058, 0.2011, 0.2089])
 
     # line_chart.add('Eclipse', [0.9413, 0.789, 0.9115, 1.0114, 1.1009, 0.9966, 1.0991, 0.7613, 0.5591, 0.4673, 0.3772])
     # line_chart.add('Android Studio', [None, None, None, 0.0003, 0.0002, 0.0891, 0.1988, 0.4765, 0.6658, 0.4769, 0.6002])
@@ -50,7 +54,8 @@ def visualize(title, output):
 # visualize("Object-Oriented Language", "./visualize/output/oop.svg")
 # visualize("CMS", "./visualize/output/cms.svg")
 # visualize("Text Editor", "./visualize/output/text_editor.svg")
-visualize("Microcontroller", "./visualize/output/microcontroller.svg")
+# visualize("Microcontroller", "./visualize/output/microcontroller.svg")
+visualize("Web Server", "./visualize/output/webserver.svg")
 
 # Below this line is for debugging purpose only
 # visualizeSingle("Python", "./dataset/data/tag_counts/topic_based_percentage/TAGS_PYTHON_P.csv",
