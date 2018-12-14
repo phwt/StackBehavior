@@ -36,6 +36,7 @@ def writeFile(data, output):
         Arguments:
             `data` - Data to be written (list)
             `output` - Output file's path (string)
+        Return: None
     """
     with open(output, 'a', encoding="utf8", newline='') as csvfile:
         writer = csv.writer(csvfile)
@@ -48,6 +49,7 @@ def convertSingle(source, output):
             `source` - Source file's path (string)
             `output` - Output(Result) file's path (string)
         Return: None
+        Output: Converted Comma-Separated Values (.csv) file
     """
     question_count = readInt('./dataset/data/question_count_by_year.csv')
     tags_count = readInt(source)

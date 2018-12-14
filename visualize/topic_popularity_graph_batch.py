@@ -1,17 +1,18 @@
-""" StackBehavior - Tags Percentage Batch
-Reading tags file then compare it with total questions in each year then convert it to percentage in batch
+""" StackBehavior - Topic Popularity Graph Batch
+Visualize topic popularity data in batch into line graph format.
 """
-
-import tags_percentage
+import pygal
+import csv
+import topic_popularity_graph
 import os
 
-output_folder = './dataset/data/tag_counts/topic_based_percentage'
+output_folder = './visualize/output/topics'
 
-def readBatch(source_folder='./dataset/data/tag_counts/topic_based_year'):
+def readBatch(source_folder='./dataset/data/tag_counts/topic_based_percentage'):
     """ Read each file(s) in the specific folder
         Arguments:
             `source_folder` - Folder containing source files
-                              (string - default `./dataset/data/tag_counts/topic_based_year`)
+                              (string - default `./dataset/data/tag_counts/topic_based_percentage`)
         Return: None
         Output: Batch of Converted Comma-Separated Values (.csv) files
     """
