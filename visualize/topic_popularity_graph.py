@@ -17,6 +17,14 @@ def readConvert(path):
         return list(zip(*readCSV))
 
 def visualize(title, data, output):
+    """ Visualize the given data into line graph and render to file
+        Arguements:
+            `title` - Graph's title (string)
+            `data` - Graph's data (list)
+            `output` - Output file's path (string)
+        Return: None
+        Output: Vector Graphic (.svg) file
+    """
     line_chart = pygal.Line(height=300, show_legend=False)
     line_chart.title = title
     line_chart.x_labels = data[0]
@@ -24,6 +32,14 @@ def visualize(title, data, output):
     line_chart.render_to_file(output)
 
 def visualizeSingle(title, data, output):
+    """ Visualize data from a single file
+        Arguments:
+            `title` - Graph's title (string)
+            `data` - Graph's data (list)
+            `output` - Output file's path (string)
+        Return: None
+        Output: Vector Graphic (.svg) file
+    """
     data = readConvert(data)
     visualize("Python", data, output)
 
