@@ -13,6 +13,7 @@ def readBatch(source_folder='./dataset/data/tag_counts/topic_based_year'):
             `source_folder` - Folder containing source files
                               (string - default `./dataset/data/tag_counts/topic_based_year`)
         Return: None
+        Output: Batch of Converted Comma-Separated Values (.csv) files
     """
     for subdir, _, files in os.walk(source_folder):
         for file in files:
