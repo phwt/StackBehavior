@@ -18,11 +18,11 @@ Analyze user behavior based on the positive and negative context of the comments
    - [ ] Comments' context - *Working in Progress*
 2. [ ] **Convert data into visualiztion-ready format**
    - [X] Topics
-   - [ ] Users' Activity
+   - [X] Users' Activity
    - [ ] Comments' context
 3. [ ] **Data Visualization**
-   - [ ] Topics - *Working in Progress*
-   - [ ] Users' Activity
+   - [X] Topics
+   - [X] Users' Activity
    - [ ] Comments' context
 4. [ ] **Presentation**
    - [ ] Website - *Working in Progress*
