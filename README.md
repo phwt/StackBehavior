@@ -14,7 +14,7 @@ Analyze user behavior based on the positive and negative context of the comments
 ## To-do
 1. [ ] **Query and Download data**
    - [X] Topics
-   - [ ] Users' Activity - *Working in Progress*
+   - [X] Users' Activity
    - [ ] Comments' context - *Working in Progress*
 2. [ ] **Convert data into visualiztion-ready format**
    - [X] Topics
