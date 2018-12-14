@@ -11,8 +11,22 @@ Analyze how time in a year affect user's activity on the site.
 ### Comments' Positive and Negative context
 Analyze user behavior based on the positive and negative context of the comments.
 
-### Visualization Example
-![Alt text](./visualize/output/user_chart.svg)
+## To-do
+1. [ ] **Query and Download data**
+   - [X] Topics
+   - [ ] Users' Activity - *Working in Progress*
+   - [ ] Comments' context - *Working in Progress*
+2. [ ] **Convert data into visualiztion-ready format**
+   - [X] Topics
+   - [ ] Users' Activity
+   - [ ] Comments' context
+3. [ ] **Data Visualization**
+   - [ ] Topics - *Working in Progress*
+   - [ ] Users' Activity
+   - [ ] Comments' context
+4. [ ] **Presentation**
+   - [ ] Website - *Working in Progress*
+   - [ ] Video
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
@@ -25,7 +39,6 @@ Analyze user behavior based on the positive and negative context of the comments
 ##### Data Range - 2008 Q3 - 2018 Q3* (10 Years)
 ##### Total Size - 59.87 GB
 \* 2018 Q4 Data is excluded because of incomplete data.
-
 
 ## Built-With
 * Python `3.7.0`
