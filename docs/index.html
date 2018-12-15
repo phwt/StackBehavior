@@ -20,6 +20,7 @@
     <link href="https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Athiti:400,500,600" rel="stylesheet">
 
     <!-- Plugin CSS -->
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
@@ -46,6 +47,21 @@
     <style>
       html{
         font-family: Kanit !IMPORTANT;
+      }
+      p, li{
+        font-family: Athiti !IMPORTANT;
+      }
+      td{
+        text-align: left;
+        vertical-align: top;
+        font-family: Athiti !IMPORTANT;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-size: 18px;
+      }
+      td.left{
+        font-weight: bold;
+        text-align: right;
       }
     </style>
   </head>
@@ -190,8 +206,8 @@
             <div class="continer">
               <nav>
                 <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                  <a class="nav-item nav-link active" id="nav-ool-tab" data-toggle="tab" href="#nav-ool" role="tab" aria-controls="nav-ool" aria-selected="true">Object-Oriented Language</a>
-                  <a class="nav-item nav-link" id="nav-js-tab" data-toggle="tab" href="#nav-js" role="tab" aria-controls="nav-js" aria-selected="false">JavaScript</a>
+                  <a class="nav-item nav-link active" id="nav-js-tab" data-toggle="tab" href="#nav-js" role="tab" aria-controls="nav-js" aria-selected="true">JavaScript</a>
+                  <a class="nav-item nav-link" id="nav-ool-tab" data-toggle="tab" href="#nav-ool" role="tab" aria-controls="nav-ool" aria-selected="false">Programming Language</a>
                   <a class="nav-item nav-link" id="nav-txt-tab" data-toggle="tab" href="#nav-txt" role="tab" aria-controls="nav-txt" aria-selected="false">Text Editor</a>
                   <a class="nav-item nav-link" id="nav-ide-tab" data-toggle="tab" href="#nav-ide" role="tab" aria-controls="nav-ide" aria-selected="false">Android IDE</a>
                   <a class="nav-item nav-link" id="nav-webserver-tab" data-toggle="tab" href="#nav-webserver" role="tab" aria-controls="nav-webserver" aria-selected="false">Web Server</a>
@@ -199,34 +215,126 @@
                 </div>
               </nav>
               <div class="tab-content" id="nav-tabContent">
-                <div class="tab-pane fade show active" id="nav-ool" role="tabpanel" aria-labelledby="nav-ool-tab">
-                  <object rel="preload" data="graph/ool.svg" type="image/svg+xml"></object>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna quam, efficitur ac tempor vitae, rhoncus non metus. Nam nec nulla quam. Integer eu erat nulla. Nunc et varius eros. Nullam aliquet, diam pellentesque sodales gravida, purus erat tincidunt mi, tincidunt malesuada dui neque et nisl. In in rhoncus tellus, sed suscipit enim. Donec consequat mi at pretium iaculis. Cras in magna a nisi fringilla sodales. Quisque imperdiet elit ac eros efficitur laoreet id quis neque. Nunc eu commodo neque. Integer quam ipsum, ullamcorper non quam sit amet, imperdiet gravida justo. Donec ante mi, ultrices eget ultrices eget, volutpat nec.</p>
-                </div>
-
-                <div class="tab-pane fade" id="nav-js" role="tabpanel" aria-labelledby="nav-js-tab">
+                
+                <div class="tab-pane fade show active" id="nav-js" role="tabpanel" aria-labelledby="nav-js-tab">
                   <object rel="preload" data="graph/js_framework.svg" type="image/svg+xml"></object>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque feugiat dapibus turpis, at consequat dolor mollis id. Sed fringilla nulla efficitur quam rhoncus placerat. Donec porta elit eget dui accumsan interdum. Donec commodo risus vel mauris vehicula dictum nec sit amet lectus. Nullam id tincidunt sem. Vestibulum ac tortor felis. Mauris eleifend nisl ut mollis ornare. Maecenas mattis tincidunt neque. Quisque in lacus consequat, venenatis velit non, tincidunt velit. Curabitur mattis augue diam, nec ultricies libero maximus vitae. Mauris non odio vitae sem interdum ullamcorper eu a lectus. Proin eget nisi blandit, placerat leo non, convallis est. Curabitur et hendrerit.</p>
+                  <p>JavaScript เป็นหัวข้อที่นิยมมากที่สุดของ StackOverflow โดยตลอดด้วยการใช้งานทั้งหมดจำนวน 1 ล้าน 7 แสนครั้ง(2018)
+                    <br>ซึ่งถ้ามาดูในส่วนย่อยของ JavaScript ก็คือ Framework หรือ Library ก็จะเห็นความสัมพันธ์ดังนี้
+                      <table>
+                          <tr>
+                            <td class="left">2012</td>
+                            <td>ในปีนี้ AngularJS ได้ปล่อยตัวเต็มในเดือนกันยายนหลังจากเปิดตัวเมื่อสองปีที่แล้ว</td>
+                          </tr>
+                          <tr>
+                            <td class="left">2013</td>
+                            <td>หลังจาก AngularJS เปิดตัวความนิยมก็เพิ่มขึ้นเป็น ~0.9% จาก ~0.1% ในปีที่แล้ว และในเดือนพฤษภาคมปีนี้มีการเปิดตัว React ของ Facebook</td>
+                          </tr>
+                          <tr>
+                            <td class="left">2014</td>
+                            <td>AngularJS ได้รับความนิยมเพิ่มขึ้นเรื่อยๆโดยเพิ่มขึ้นมาเกือบ 1.4% ภายในปีเดียว ทำให้ jQuery ที่ความนิยมเพิ่มขึ้นตลอดได้ลดลงไปเหลือ ~6.9% จากเดิม ~7.5% แต่ก็ยังอยู่ในระดับที่สูงอยู่ดี และในเดือนกุมภาพันธ์ปีนี้มีการเปิดตัว Vue.js</td>
+                          </tr>
+                          <tr>
+                            <td class="left">2015</td>
+                            <td>ความนิยมของ AngularJS, React และ Vue.js เพิ่มขึ้นเแต่ในฝั่ง jQeury นั้นลดลงไปเกือบ 1%</td>
+                          </tr>
+                          <tr>
+                            <td class="left">2016</td>
+                            <td>อัตราการเติบโตเหมือนในปี 2015 แต่ในเดือนกันยายน AngularJS ได้ออกเวอร์ชั่นถัดไปคือ Angular หรือ Angular 2+ ทำให้อัตราการเติบโตเพิ่มขึ้นกว่า 1%</td>
+                          </tr>
+                          <tr>
+                            <td class="left">2017</td>
+                            <td>หลังจากการเปิดตัวของ Angular ในปีที่แล้วทำให้เป็นครั้งแรกที่ Angular อยู่อันดับสูงกว่า jQuery โดยความนิยมของ React และ Vue.js ก็เพิ่มขึ้นเรื่อยๆ</td>
+                          </tr>
+                          <tr>
+                            <td class="left">2018</td>
+                            <td>จากผลสำรวจความพึงพอใจในปี 2017 React ได้รับความพึงพอจากมากกว่า Angular มากทำให้ในปีนี้ความนิยมของ Angular และ React เพิ่มขึ้นอย่างเท่าๆกัน Vue.js เติบโตขึ้นมากแต่จากที่ตัวอื่นยังได้รับความนิยมอยู่ทำให้ไม่ได้นิยมมากกว่าตัวใดตัวหนึ่ง</td>
+                          </tr>
+                        </table>
+                  </p>
+                </div>
+                
+                <div class="tab-pane fade" id="nav-ool" role="tabpanel" aria-labelledby="nav-ool-tab">
+                  <object rel="preload" data="graph/ool.svg" type="image/svg+xml"></object>
+                  <p>การเติบโตของ Python นั้นกระทบต่อ Java และ C++ มาก เพราะ Python นั้นสามารถเขียนได้ทั้งแบบ Procedural และ Object-Oriented
+                    และเป็นภาษา High-level เรียนรู้ได้ง่าย และมี Library ให้เลือกใช้หลายหมื่นตัว <br><br>เมื่อมาเทียบกับ Java และ C++ ที่อัตราของทั้งสองตัวนี้จะเติบโตเท่าๆกันแต่
+                    Java จะสูงกว่าเสมอเนื่องจากการใช้งานที่ง่ายกว่าเพราะเป็นภาษา High-level แต่ก็ลดลงในเวลาต่อมาที่ Python ได้รับความนิยมมากขึ้น เพราะ Python
+                    สามารถเขียนทั้งแบบ Procedural และ Object-Oriented ได้ ใช้งานได้หลากหลายกว่า และ Java ก็ยังมีปัญหาด้าน Backward-compatibility
+                    ที่ทำให้เมื่อมีการเปลี่ยนเวอร์ชั่นแล้วต้องมาแก้ไขเพื่อให้้ใช้งานได้ต่อ</p>
                 </div>
 
                 <div class="tab-pane fade" id="nav-txt" role="tabpanel" aria-labelledby="nav-txt-tab">
                   <object rel="preload" data="graph/text_editor.svg" type="image/svg+xml"></object>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices molestie neque sed aliquam. In interdum varius diam eu volutpat. Pellentesque convallis mollis orci, vel lacinia diam accumsan molestie. In auctor vitae mauris quis auctor. Vivamus rutrum dui eget velit lobortis consequat. Vivamus erat mauris, mattis non varius eu, maximus ut est. Nam cursus nisl nec augue porta elementum. Vivamus consequat enim odio, eget dapibus dui accumsan in. Sed pulvinar nulla in laoreet interdum. Curabitur vulputate odio ac augue pharetra vestibulum. Pellentesque vulputate enim lacus, id consectetur est fermentum non. Morbi eu consectetur odio. Praesent pulvinar id sapien sed aliquam.</p>
+                  <table>
+                      <tr>
+                        <td class="left">2011</td>
+                        <td>ตั้งแต่ปี 2008 ทุกโปรแกรมเติบโตขึ้นเรื่อยๆ ยกเว้น Vim ที่มีข้อดีในการที่เป็น Keyboard-based ที่ใช้การกดแป้นพิมพ์ในการสั่งการทั้งหมดและสร้างโครสำหรับงานที่ทำซ้ำๆบ่อยๆได้ แต่ด้วยการที่เป็น Keyboard-based ทำให้ผู้ใช้ใหม่ๆเรียนรู้ได้ยาก ประกอบกับการมีโปรแกรมอื่นๆเป็นตัวเลือกมากขึ้นเรื่อยๆทำให้ความนิยมนั้นลดลงไป</td>
+                      </tr>
+                      <tr>
+                        <td class="left">2012</td>
+                        <td>Sublime Text เปิดตัวทีหลัง Notepad++ แต่ว่ามีการเติบโตที่ดีกว่าเพราะการใช้งานที่หลากหลายทั้งการที่สามารถใช้ได้ในทั้ง Windows, macOS และ Linux ต่างจาก Notepad++ ที่ใช้ได้ใน Windows เท่านั้น ประกอบกับการที่มีส่วนขยายมากกว่า เพราะส่วนขยายของ Sublime Text นั้นเขียนใน Python แต่ของ Notepad++ นั้นต้องเขียนใน C/C++ เท่านั้น</td>
+                      </tr>
+                      <tr>
+                        <td class="left">2015</td>
+                        <td>ในปีนี้ได้มีการเปิดตัว Visual Studio Code ซึ่งได้รับความสนใจมากกว่าตัวอื่นๆตอนเปิดตัวอย่างมาก และทำให้ความนิยมของ Sublime Text ตกลงไปเพราะความเหนือกว่าของ Visual Studio Code ทั้งในด้านการสนับสนุนภาษาที่มากกว่า และมี Marketplace สำหรับเลือกดูส่วนขยายได้อย่างง่าย ซึ่งก็ดีกว่า Sublime Text ไปในเกือบทุกด้าน</td>
+                      </tr>
+                      <tr>
+                        <td class="left">2018</td>
+                        <td>ความนิยมของ Visual Studio Code สูงกว่าโปรแกรมตัวอื่นอย่างมาก ทำให้ความนิยมตัวอื่นๆนั้นลดลงไปเรื่อยๆตามๆกัน แต่ในสำหรับตัว Atom ตั้งแต่เปิดตัวมาได้เติบโตมาตลอดไม่ได้มีการลดลงแต่อย่างไร</td>
+                      </tr>
+                    </table>
                 </div>
                 
                 <div class="tab-pane fade" id="nav-ide" role="tabpanel" aria-labelledby="nav-ide-tab">
                     <object rel="preload" data="graph/android_application.svg" type="image/svg+xml"></object>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius nisi vitae lectus fringilla, id lacinia odio accumsan. Nam laoreet, dui sit amet interdum dictum, dui felis commodo lectus, in gravida est ipsum nec metus. Nam porta mi orci, a volutpat ante semper sit amet. Sed imperdiet, arcu non venenatis condimentum, massa eros bibendum turpis, in imperdiet mauris nisi ut metus. Nullam commodo nisi vitae lacus suscipit lobortis. Maecenas porttitor erat neque. In hendrerit varius orci quis sagittis. Proin interdum dolor pulvinar augue iaculis tempor. Proin ut molestie purus. Fusce porttitor bibendum neque non pellentesque. Fusce semper nibh mi, vel.</p>
+                    <p>Eclipse เป็นหนึ่งใน Integrated Development Environment (IDE) ที่นิยมใช้ในการพัฒนาแอพพลิเคชั่น Android ในยุคก่อนๆ ซึ่งการเปิดตัวของ Android Studio ของ Google ซึ่งเป็น IDE ที่ทำมาเพื่อพัฒนาแอพพลิเคชั่น Android โดยตรงมีผลกระทบต่อ Eclipse ดังนี้</p>
+                      <table>
+                        <tr>
+                          <td class="left">2013</td>
+                          <td>Google เปิดตัว Android Studio พร้อมกับตัวโปรแกรมเวอร์ชั่น Beta ทำให้ความสนใจใน Eclipse ลดลงไปเหลือ ~1.0% จากเดิม ~1.1%</td>
+                        </tr>
+                        <tr>
+                          <td class="left">2014</td>
+                          <td>ในเดือนธันวาคม Android Studio ได้มีการปล่อยตัวเต็มเวอร์ชั่น 1.0 และ 1.0.1 ให้ใช้งานทำให้ความนิยมเพิ่มขึ้นจาก ~0.09% เป็น ~0.2% ซึ่งความนิยม Eclipse กลับไปอยู่ที่ ~1.01%</td>
+                        </tr>
+                        <tr>
+                          <td class="left">2016</td>
+                          <td>หลังจากเปิดเวอร์ชั่นเต็ม Android Studio ไปในปลายปีที่แล้วทำให้ความนิยมก็เพิ่มขึ้นอย่างมากจากเดิม ~0.2% เป็น ~0.5% แต่กลับกันในฝั่งของ Eclipse ได้ลดลงอย่างมาก จาก ~1.1% ลงไปเหลือ ~0.7%</td>
+                        </tr>
+                        <tr>
+                          <td class="left">2016</td>
+                          <td>ในปีนี้ Google ประกาศเลิกสนับสนุนส่วนเสริม Android Developer Tools สำหรับ Eclipse ซึ่งเป็นส่วนหนึ่งที่ใช้ในการพัฒนา ทำให้เป็นครั้งแรกที่ความนิยมของ Android Studio สูงกว่า Eclipse โดยอยู่ที่ ~0.7% และ ~0.5% ตามลำดับ</td>
+                        </tr>
+                      </table><rbr>
+                    <p>และในปีถัดๆมาความนิยมของ Eclipse ก็ลดลงเรื่อยๆจนถึง ~0.4% ในปี 2018 ซึ่งส่วนใหญ่จะเป็นผู้ใช้ที่ใช้ Eclipse ในการพัฒนา Java</p>
                 </div>
                 
                 <div class="tab-pane fade" id="nav-webserver" role="tabpanel" aria-labelledby="nav-webserver-tab">
                     <object rel="preload" data="graph/webserver.svg" type="image/svg+xml"></object>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium velit. Ut ac nunc sit amet ex finibus gravida sed at quam. Sed condimentum lorem ac sagittis tempor. Pellentesque scelerisque iaculis nisl, ac feugiat enim posuere et. Phasellus in euismod ante. Maecenas nisl enim, cursus vel erat sit amet, condimentum rutrum ipsum. Mauris at tellus diam. Nulla a varius ex. Cras sed sem leo. Integer vitae nibh turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sit amet ipsum nec nisi volutpat sodales. Maecenas ligula mi, tristique sit amet eros in, auctor eleifend.</p>
+                    <p>ในหัวข้อนี้เห็นได้ว่าทั้งสามระบบไม่ได้มีผลกระทบต่อกันอย่างชัดเจนตามช่วงเวลา ซึ่งสำหรับ Apache และ NGINX ก็เติบโตขึ้นเรื่อยๆแต่ Apache จะอยู่อันดับสูงกว่าเสมอ ถึงแม้ NGINX จะใช้ทรัพยากรน้อย แต่ Apache สามารถรอบรับหน้าเว็บแบบ Dynamic ที่เป็นแบบที่นิยมในปัจจุบันได้ดีกว่า รวมทั้งมีระบบ .htaccess ที่สามารถใช้ตั้งค่าแยกต่างหากได้อีก
+                    <br><br>สำหรับส่วนของ Internet Information Server (IIS) นั้นความนิยมลดลงมาตลอดซึ่งเป็นเพราะกาลงได้กับ Windows เท่านั้นและ Windows นั้นไม่ใช่ Open-Souce ซึ่งก็จะเป็นการเพิ่มค่าใช่จ่ายอีก ซึ่งข้อดีของ IIS คือมี GUI ที่ทำให้ใช้งานง่าย แต่ GUI ก็เป็นข้อเสียด้วยเพราะการตั้งค่านั้นต้องทำผ่าน GUI ทั้งหมดซึ่งจะทำให้การทำงานยุ่งยากขึ้นมาอีก จึงเป็นผลให้ความนิยมของ IIS ลดลงมาเรื่อนๆ
+                    </p>
                 </div>
 
                 <div class="tab-pane fade" id="nav-cms" role="tabpanel" aria-labelledby="nav-cms-tab">
                     <object rel="preload" data="graph/cms.svg" type="image/svg+xml"></object>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet massa ac ligula gravida fermentum ut id turpis. Nullam commodo blandit ligula, consectetur interdum tellus malesuada ut. Vivamus sit amet neque augue. In sed posuere lectus. Donec quis ante in dolor finibus mollis. Fusce id magna felis. Vestibulum varius, risus et congue elementum, neque neque ullamcorper augue, non ornare nisi dolor eget lorem. Duis tempus, metus sit amet semper condimentum, dui nulla placerat mi, in dapibus mi risus in lectus. Pellentesque porttitor nulla faucibus, ultrices tellus luctus, hendrerit leo. Nulla facilisi. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus.</p>
+                    <table>
+                        <tr>
+                          <td class="left">2010</td>
+                          <td>ตั้งแต่ปี 2008 ทั้งสามได้เติบโตขึ้นเรื่อยๆตามปกติ ซึ่งความนิยมของ Drupal นั้นเกือบเท่า WordPress เลยทีเดียว</td>
+                        </tr>
+                        <tr>
+                          <td class="left">2011</td>
+                          <td>WordPress และ Joomla เติบโตขึ้นแต่ไม่มาก แต่ความนิยม Drupal กลับลดลง เป็นเพราะในช่วงนั้นบริการเว็บไซต์สำเร็จรูปกำลังเป็นที่นิยม ทำให้เติบโตไม่มาก แต่ในส่วน Drupal ที่ลดลงเพราะเมื่อเทียบกับอีกสองตัวแล้วการใช้งานยากกว่าเพราะ Drupal เหมาะกับผู้พัฒนามากกว่าผู้ใช้ทั่วไป</td>
+                        </tr>
+                        <tr>
+                          <td class="left">2017</td>
+                          <td>ตั้งแต่ปี 2011 การเติบโตของ WordPress นั้นเพิ่มขึ้นไปมากเพราะการที่ใช้งานง่าย และรองรับอุปกรณ์ได้หลายประเภท และส่วนของ Joomla นั้นลดลงเรื่อยๆเนื่องจากความที่ใช้งานไม่ได้ง่ายเหมือน WordPress แต่ก็ไม่ได้เหมาะกับผู้พัฒนาเหมือน Drupal ด้วย</td>
+                        </tr>
+                        <tr>
+                          <td class="left">2018</td>
+                          <td>Drupal ได้ออกเวอร์ชั่นใหม่ที่ทำให้การใช้งานนั้นง่ายขึ้นทำให้มีการเติบโตเพิ่มขึ้นจากปีที่แล้ว และอยู่อันดับสูงกว่า Joomla เล็กน้อย</td>
+                        </tr>
+                      </table>
                 </div>
 
               </div>
@@ -256,7 +364,10 @@
   
                 </div>
               </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet arcu non elementum facilisis. Nulla dapibus neque ac aliquam interdum. Vestibulum ex eros, sagittis a venenatis at, porttitor in massa. Praesent ornare odio lobortis felis molestie suscipit. Vivamus dignissim ultricies tellus eget finibus. Duis eros diam, molestie id libero ut, auctor feugiat ligula. Curabitur eu velit dolor. Quisque sollicitudin purus maximus, tempus leo sed, feugiat nisi. Vivamus sit amet sollicitudin ipsum. Morbi porttitor hendrerit efficitur. In vestibulum felis non faucibus faucibus. Integer lacus diam, mattis nec dictum non, vestibulum nec eros. Sed rhoncus commodo mollis. Aliquam bibendum est dolor, sed.</p> 
+            <p>StackOverflow ก็ถือเป็นสังคมกลุ่มหนึ่ง การแสดงความคิดเห็นก็จะมีทั้งเชิงบวกและเชิงลบปะปนกันไป ความคิดเห็นส่วนมากก็จะเป็นไปในเชิงบวกเพราะเป็นเว็บไซต์ถามตอบปัญหาสำหรับนักพัฒนาโดยเฉพาะที่จะมีความเป็นมืออาชีพสูง
+              แต่ความคิดเห็นเชิงลบไม่ใช่ว่าจะไม่มีเพราะเมื่อผู้คนรวมตัวกันกันมากๆ ความคิดเห็นก็จะหลากหลายขึ้นมาก ซึ่งอาจเกิดจากคำถามไม่มีคุณภาพ หรือเป็นเรื่องง่ายๆที่ไม่ควรมาถาม
+              และในอีกส่วนคือคำถามที่ผิดกฎของเว็บไซต์<br><br>จากในกราฟจะเห็นได้ว่าปริมาณของผู้ใช้ก็เพิ่มขึ้นเรื่อยๆ และความคิดเห็นเชิงลบนั้นก็เพิ่มขึ้นเรื่อยๆเช่นกัน
+              ซึ่งก็เป็นไปตามที่ได้กล่าวไว้ก็คือเมื่อผู้คนมากความคิดเห็นก็จะหลากหลายมากขึ้นนั่นเอง</p> 
             <br><br>
             <hr>
             <br><br>
@@ -265,7 +376,28 @@
           <div class="col-lg-12 my-auto" id="result_activity">
             <br><h3 style="font-weight: 500">Activity | กิจกรรมของผู้ใช้</h3><br>
             <object data="graph/user_activity.svg" type="image/svg+xml"></object>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut metus ac diam vestibulum fringilla. Donec vel lobortis nulla. Vestibulum fermentum enim mauris, quis tincidunt nulla luctus luctus. Nulla ultrices venenatis ante non sodales. Nulla pharetra augue eget libero efficitur scelerisque. Suspendisse ac velit non sapien sodales mattis eu non est. Maecenas eget fringilla leo, a tincidunt justo. Sed in dui et dolor pharetra consectetur ac eu arcu. Nam tempor quam tortor, vel varius libero aliquam eu. Ut eros quam, euismod et bibendum viverra, rutrum sed nulla. Duis rhoncus libero nec nisl consectetur, eget aliquam ligula dapibus. Nam vitae feugiat.</p>
+            <table>
+                <tr>
+                  <td class="left" style="width: 11em">มกราคม - กุมภาพันธ์</td>
+                  <td>ปริมาณคำถามอยู่ในระดับกลาง ซึ่งเป็นเพราะเทศกาลสิ้นปีพึ่งจะหมดไป ทำให้คำถามนั้นยังมีไม่มาก และไม่หลากหลายมากนัก</td>
+                </tr>
+                <tr>
+                  <td class="left">มีนาคม</td>
+                  <td>เป็นช่วงที่ปริมาณคำถามมากที่สุดของปี ซึ่งช่วงนี้ส่วนใหญ่จะเป็นช่วงที่เป็นการเปิดโครงการใหม่ประจำปี ทำให้เกิดคำถามในห้วข้อที่เกี่ยวข้องกับโครงการที่จะทำอยู่นี้</td>
+                </tr>
+                <tr>
+                  <td class="left">เมษายน - สิงหาคม</td>
+                  <td>ปริมาณคำถามอยู่ในระดับสูง ซึ่งเป็นช่วงในการดำเนินโครงการต่างๆ ทำให้มีคำถามเข้ามาเรื่อยๆ</td>
+                </tr>
+                <tr>
+                  <td class="left">กันยายน - พฤษจิกายน</td>
+                  <td>เป็นช่วงท้ายๆของการทำโครงการปริมาณคำถามจะมีไม่มาก เนื่องจากเป็นช่วงที่จะเป็นการแก้ไขปัญหา และเก็บรายละเอียดต่างๆ</td>
+                </tr>
+                <tr>
+                  <td class="left">ธันวาคม</td>
+                  <td>เป็นช่วงที่มีปริมาณคำถามน้อยที่สุด เนื่องจากใกล้สิ้นปี และบริษัทส่วนใหญ่มักจะปิดรอบทำการในช่วงเวลานี้</td>
+                </tr>
+              </table>
           </div>
         </div>
     </section>
