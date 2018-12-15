@@ -31,7 +31,8 @@ h1,h2,h3,h4,h5,h6{
 p{
     font-size:18px;
     line-height:1.5;
-    margin-bottom:20px
+    margin-bottom:20px;
+    letter-spacing: 1px
 }
 section{
     padding:100px 0
@@ -343,7 +344,7 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
 }
 .btn{
     border-radius:300px;
-    font-family:Lato,Helvetica,Arial,sans-serif;
+    font-family:Lato,Kanit,Helvetica,Arial,sans-serif;
     letter-spacing:2px;
     text-transform:uppercase
 }
