@@ -25,7 +25,15 @@
     - Vue.js launch - http://blog.evanyou.me/2014/02/11/first-week-of-launching-an-oss-project/
 
 - Text Editor
+    2011 - ตั้งแต่ปี 2008 ทุกโปรแกรมเติบโตขึ้นเรื่อยๆ ยกเว้น Vim ที่มีข้อดีในการที่เป็น Keyboard-based ที่ใช้การกดแป้นพิมพ์ในการสั่งการทั้งหมดและสร้างโครสำหรับงานที่ทำซ้ำๆบ่อยๆได้ แต่ด้วยการที่เป็น Keyboard-based ทำให้ผู้ใช้ใหม่ๆเรียนรู้ได้ยาก ประกอบกับการมีโปรแกรมอื่นๆเป็นตัวเลือกมากขึ้นเรื่อยๆทำให้ความนิยมนั้นลดลงไป
+    2012 - Sublime Text เปิดตัวทีหลัง Notepad++ แต่ว่ามีการเติบโตที่ดีกว่าเพราะการใช้งานที่หลากหลายทั้งการที่สามารถใช้ได้ในทั้ง Windows, macOS และ Linux ต่างจาก Notepad++ ที่ใช้ได้ใน Windows เท่านั้น ประกอบกับการที่มีส่วนขยายมากกว่า เพราะส่วนขยายของ Sublime Text นั้นเขียนใน Python แต่ของ Notepad++ นั้นต้องเขียนใน C/C++ เท่านั้น
+    2015 - ในปีนี้ได้มีการเปิดตัว Visual Studio Code ซึ่งได้รับความสนใจมากกว่าตัวอื่นๆตอนเปิดตัวอย่างมาก และทำให้ความนิยมของ Sublime Text ตกลงไปเพราะความเหนือกว่าของ Visual Studio Code ทั้งในด้านการสนับสนุนภาษาที่มากกว่า และมี Marketplace สำหรับเลือกดูส่วนขยายได้อย่างง่าย ซึ่งก็ดีกว่า Sublime Text ไปในเกือบทุกด้าน
+    2018 - ความนิยมของ Visual Studio Code สูงกว่าโปรแกรมตัวอื่นอย่างมาก ทำให้ความนิยมตัวอื่นๆนั้นลดลงไปเรื่อยๆตามๆกัน แต่ในสำหรับตัว Atom ตั้งแต่เปิดตัวมาได้เติบโตมาตลอดไม่ได้มีการลดลงแต่อย่างไร
 
+    Cite:
+    - Vim Pros and Cons - https://hackernoon.com/pros-and-cons-of-vim-in-2018-e15e59e35933
+    - Sublime Text vs Notepad++ - https://news.ycombinator.com/item?id=14918288
+    - VSCode vs Sublime Text - https://news.codecademy.com/visual-studio-code-sublime-text/
 
 - Android IDE
     Eclipse เป็นหนึ่งใน Integrated Development Environment (IDE) ที่นิยมใช้ในการพัฒนาแอพพลิเคชั่น Android ในยุคก่อนๆ ซึ่งการเปิดตัวของ Android Studio ของ Google ซึ่งเป็น IDE ที่ทำมาเพื่อพัฒนาแอพพลิเคชั่น Android โดยตรงมีผลกระทบต่อ Eclipse ดังนี้
