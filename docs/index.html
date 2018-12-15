@@ -48,7 +48,7 @@
       html{
         font-family: Kanit !IMPORTANT;
       }
-      p, li{
+      p, li, p>b{
         font-family: Athiti !IMPORTANT;
       }
       td{
@@ -90,10 +90,9 @@
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#conclusion">Conclusion</a>
             </li>
-
-            <li class="nav-item">
+            <!-- <li class="nav-item">
                 <a class="nav-link js-scroll-trigger" href="#">Stats</a>
-            </li>
+            </li> -->
           </ul>
         </div>
       </div>
@@ -115,17 +114,6 @@
           <div class="col-lg-5 my-auto">
             <div class="device-container">
               <img src="https://via.placeholder.com/300"/>
-              <!-- <div class="device-mockup iphone6_plus portrait white">
-                <div class="device">
-                  <div class="screen"> -->
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <!-- <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
-                  </div>
-                  <div class="button"> -->
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  <!-- </div>
-                </div>
-              </div> -->
             </div>
           </div>
         </div>
@@ -144,7 +132,7 @@
                     <h5 class="card-title">Technology</h5>
                     <h6 class="card-subtitle mb-2 text-muted">ความนิยมทางเทคโนโลยี</h6>
                     <p class="card-text">นำแท็กที่ผู้ใช้ใส่ไว้กับคำถาม มาวิเคราะห์ถึงความนิยมด้านเทคโนโลยีต่างๆ</p>
-                    <a class="js-scroll-trigger" href="#results"><button class="btn btn-secondary">ดูผลการวิเคราะห์</button></a>
+                    <a class="js-scroll-trigger" href="#result_tech"><button class="btn btn-secondary">ดูผลการวิเคราะห์</button></a>
                   </div>
                 </div>
               </div>
@@ -171,33 +159,16 @@
                 </div>
               </div>
             </div>
-            <!-- <p>วัตถุประสงค์ของโครงงาน</p> -->
-            <!-- <div class="badges"> -->
-              <!-- <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a> -->
-              <!-- <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a> -->
-            <!-- </div> -->
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <section class="features" id="features">
-      <div class="container">
-        <div class="section-heading text-center">
-          <h2>หัวข้อที่นำมาวิเคราะห์</h2>
-          <p class="text-muted">ด้านเทคโนโลยี</p>
-          <p class="text-muted">กิจกรรมของผู้ใช้</p>
-          <p class="text-muted">พฤติกรรมของผู้ใช้</p>
-          <hr>
-        </div>
-      </div>
-    </section> -->
-
     <section class="results" id="results">
       <div class="container">
         <div class="section-heading text-center">
           <h2>Results | ผลลัพธ์</h2>
-          <hr><br>
+          <hr id="result_tech"><br>
         </div>
 
         <div class="row text-center">
@@ -364,8 +335,8 @@
   
                 </div>
               </div>
-            <p>StackOverflow ก็ถือเป็นสังคมกลุ่มหนึ่ง การแสดงความคิดเห็นก็จะมีทั้งเชิงบวกและเชิงลบปะปนกันไป ความคิดเห็นส่วนมากก็จะเป็นไปในเชิงบวกเพราะเป็นเว็บไซต์ถามตอบปัญหาสำหรับนักพัฒนาโดยเฉพาะที่จะมีความเป็นมืออาชีพสูง
-              แต่ความคิดเห็นเชิงลบไม่ใช่ว่าจะไม่มีเพราะเมื่อผู้คนรวมตัวกันกันมากๆ ความคิดเห็นก็จะหลากหลายขึ้นมาก ซึ่งอาจเกิดจากคำถามไม่มีคุณภาพ หรือเป็นเรื่องง่ายๆที่ไม่ควรมาถาม
+            <p><b>StackOverflow</b> ก็ถือเป็นสังคมกลุ่มหนึ่ง การแสดงความคิดเห็นก็จะมีทั้งเชิงบวกและเชิงลบปะปนกันไป ความคิดเห็นส่วนมากก็จะเป็นไปในเชิงบวกเพราะเป็นเว็บไซต์ถามตอบปัญหาสำหรับนักพัฒนาโดยเฉพาะที่จะมีความเป็นมืออาชีพสูง
+              แต่ความคิดเห็นเชิงลบไม่ใช่ว่าจะไม่มีเพราะ<b>เมื่อผู้คนรวมตัวกันกันมากๆ ความคิดเห็นก็จะหลากหลายขึ้นมาก</b> ซึ่งอาจเกิดจากคำถามไม่มีคุณภาพ หรือเป็นเรื่องง่ายๆที่ไม่ควรมาถาม
               และในอีกส่วนคือคำถามที่ผิดกฎของเว็บไซต์<br><br>จากในกราฟจะเห็นได้ว่าปริมาณของผู้ใช้ก็เพิ่มขึ้นเรื่อยๆ และความคิดเห็นเชิงลบนั้นก็เพิ่มขึ้นเรื่อยๆเช่นกัน
               ซึ่งก็เป็นไปตามที่ได้กล่าวไว้ก็คือเมื่อผู้คนมากความคิดเห็นก็จะหลากหลายมากขึ้นนั่นเอง</p> 
             <br><br>
@@ -403,16 +374,44 @@
     </section>
 
 
-    <section class="cta conclusion" id="conclusion">
-      <div class="cta-content">
+    <section class="topics bg-primary text-center" id="conclusion">
         <div class="container">
-          <h2>สรุปผลการวิเคราะห์</h2>
-          <!-- <h2>หน้าสรุป<br>Start building.</h2> -->
-          <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
+          <div class="row">
+            <div class="col-md-11 mx-auto">
+              <h2 class="section-heading" style="font-size:50px">Conclusion | สรุปผลการวิเคราะห์</h2><br>
+              <div class="card fade-on-scroll">
+                  <div class="card-body">
+                      <h5 class="card-title">Technology</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">ความนิยมทางเทคโนโลยี</h6>
+                    <p class="card-text">ความนิยมของเทคโนโลยีใดๆจะเปลี่ยนแปลงได้นั้นมีปัจจัย เช่น
+                      <b style="font-weight: 500">ความหลากหลายในการใช้งาน, ความสะดวกสบายในการใช้งาน และประสิทธิภาพในการใช้งาน</b>
+                      นั้นจะส่งผลให้มีการเปลี่ยนแปลงได้ ซึ่งหลักๆจะเห็นได้ว่า เมื่อมีเทคโนโลยีใหม่ออกมาและมันดีกว่าของเดิม และหากของเดิมไม่ปรับตัวก็จะความนิยมของใหม่ก็จะเพิ่มขึ้นเรื่อยๆและแซงหน้าไปในที่สุด
+                    </p>
+                  </div>
+              </div><br>
+
+              <div class="card fade-on-scroll">
+                  <div class="card-body">
+                      <h5 class="card-title">Behavior</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">พฤติกรรมของผู้ใช้</h6>
+                    <p class="card-text">StackOverflow ปัจจุบันมีผู้ใช้มากกว่า 9.8 ล้านคน <b style="font-weight: 500">เมื่อผู้คนมาก ความแตกต่างทางความคิดเห็นก็มากขึ้น</b><br>
+                    เมื่อความแตกต่างมากสัดส่วนของความคิดเห็นในด้านลบก็จะเพิ่มขึ้นไปตามๆกัน ในช่วงตลอด 10 ปีนี้ StackOverflow ก็ได้เติบโตขึ้นเรื่อยๆ และก็จะเห็นได้ว่าในปี 2018 มีความคิดเห็นเชิงลบมากถึง 23% เลยทีเดียว</p>
+                  </div>
+              </div><br>
+
+              <div class="card fade-on-scroll">
+                  <div class="card-body">
+                      <h5 class="card-title">Activity</h5>
+                      <h6 class="card-subtitle mb-2 text-muted">กิจกรรมของผู้ใช้</h6>
+                    <p class="card-text">การถามคำถามของผู้ใช้ มักจะแปรฝันตรงกับ<b style="font-weight: 500">ระยะต่างๆในการพัฒนาโครงงานระยะยาว และตามวันหยุด, เทศกาล หรือกิจกรรมต่างๆตามปฏิทิน</b>
+                      ซึ่งจะเห็นได้ชัดเจนว่าช่วงเดือนมีนาคมถึงสิงหาคมจะเป็นช่วงของการทำงานซะส่วนมาก และเป็นช่วงแก้ไข และเก็บรายละเอียดต่างๆในเดือนกันยายนถึงพฤษจิกายน นอกจากนั้นจะเป็นช่วงวันหยุด, เทศกาลที่จะเห็นถึงความลดลงได้อย่างชัดเจน
+                    </p>
+                  </div>
+              </div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="overlay"></div>
-    </section>
+      </section>
 
     <section class="contact github">
       <div class="container">
