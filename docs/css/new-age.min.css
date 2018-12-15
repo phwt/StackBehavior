@@ -17,7 +17,14 @@ a:focus,a:hover{
 }
 a[aria-selected=true] {
     color: coral !IMPORTANT;
-  }
+}
+.hover-opacity{
+    -webkit-transition: 0.5s; /* Safari */
+    transition: 0.5s;
+}
+.hover-opacity:hover{
+    opacity: 0.5
+}
 hr{
     /* max-width:100px; */
     margin:25px auto 0;
