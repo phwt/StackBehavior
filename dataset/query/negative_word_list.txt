@@ -1,12 +1,35 @@
 -1
+-rep
 possible duplicate of
 google it
 please google
--rep
 asked before
 is this homework
 already has an answer
 nothing much to share
+<<<<<<< HEAD
 It seems you don't understand how this approach works.
 Please, stop this madness.
 "harder to read"
+=======
+troll
+off-topic
+downvote
+talk to your client
+stupid
+stupid requirement
+should be deleted
+silly question
+noob
+unclear what you're asking
+what you mean
+what do you mean
+can you clarify
+still unclear
+not helpful
+i hate to
+waste of my time
+you won’t listen
+self explanatory
+i have already told
+>>>>>>> parent of 891f6f5... Revert "Merge branch 'development' of https://github.com/phwt/StackBehavior into development"
