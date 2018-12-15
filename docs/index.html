@@ -17,7 +17,7 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,400" rel="stylesheet">
 
@@ -43,7 +43,11 @@
         });
       });
     </script>
-
+    <style>
+      html{
+        font-family: Kanit !IMPORTANT;
+      }
+    </style>
   </head>
 
   <body id="page-top">
@@ -51,7 +55,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">stack<b>behavior</b></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">stack<b style="font-weight: 600">behavior</b></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -80,27 +84,28 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5" style="margin: 0px 0px 0px 0px !IMPORTANT;font-weight: 500;">StackBehavior</h1>
+              <span class="mb-5" style="margin: 0px !IMPORTANT;font-weight: 400;font-size: 65px">stack<b style="font-weight: 600">behavior</b></span>
               <p>
-                A <b>StackOverflow</b> data analysis project<br>
-                โครงานวิเคราะห์ข้อมูลเว็บไซต์ <b>StackOverflow</b>
+                A <b>Stack Overflow</b> data analysis project<br>
+                <span style="font-weight: 300">โครงานวิเคราะห์ข้อมูลเว็บไซต์</span> <b>Stack Overflow</b>
               </p>
-              <a href="#topics" class="btn btn-outline btn-xl js-scroll-trigger">Interested? Let's Go!</a>
+              <a href="#topics" class="btn btn-outline btn-xl js-scroll-trigger">Scroll Down</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
+              <img src="https://via.placeholder.com/300"/>
+              <!-- <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
-                  <div class="screen">
+                  <div class="screen"> -->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <!-- <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
-                  <div class="button">
+                  <div class="button"> -->
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                  <!-- </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -265,7 +270,8 @@
     <section class="cta conclusion" id="conclusion">
       <div class="cta-content">
         <div class="container">
-          <h2>หน้าสรุป<br>Start building.</h2>
+          <h2>สรุปผลการวิเคราะห์</h2>
+          <!-- <h2>หน้าสรุป<br>Start building.</h2> -->
           <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
         </div>
       </div>
