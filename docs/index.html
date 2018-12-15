@@ -17,7 +17,7 @@
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Catamaran:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Catamaran:400,500,600,700,800,900" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Muli" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Kanit:200,300,400" rel="stylesheet">
 
@@ -26,7 +26,28 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function() {
+        /* Every time the window is scrolled ... */
+        $(window).scroll( function(){
+            /* Check the location of each desired element */
+            $('.fade-on-scroll').each( function(i){
+                var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                /* If the object is completely visible in the window, fade it it */
+                if( bottom_of_window > bottom_of_object ){
+                    $(this).animate({'opacity':'1'},500);  
+                }  
+            }); 
+        });
+      });
+    </script>
+    <style>
+      html{
+        font-family: Kanit !IMPORTANT;
+      }
+    </style>
   </head>
 
   <body id="page-top">
@@ -34,7 +55,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">stack<b>behavior</b></a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">stack<b style="font-weight: 600">behavior</b></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fas fa-bars"></i>
@@ -42,7 +63,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Topics</a>
+              <a class="nav-link js-scroll-trigger" href="#topics">Topics</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#results">Results</a>
@@ -51,7 +72,7 @@
               <!-- <a class="nav-link js-scroll-trigger" href="#graph">Graph</a> -->
             <!-- </li> -->
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Conclusion</a>
+              <a class="nav-link js-scroll-trigger" href="#conclusion">Conclusion</a>
             </li>
           </ul>
         </div>
@@ -63,40 +84,41 @@
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5" style="margin: 0px 0px 0px 0px !IMPORTANT;font-weight: 500;">StackBehavior</h1>
+              <span class="mb-5" style="margin: 0px !IMPORTANT;font-weight: 400;font-size: 65px">stack<b style="font-weight: 600">behavior</b></span>
               <p>
-                A <b>StackOverflow</b> data analysis project<br>
-                โครงานวิเคราะห์ข้อมูลเว็บไซต์ <b>StackOverflow</b>
+                A <b>Stack Overflow</b> data analysis project<br>
+                <span style="font-weight: 300">โครงานวิเคราะห์ข้อมูลเว็บไซต์</span> <b>Stack Overflow</b>
               </p>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Interested? Let's Go!</a>
+              <a href="#topics" class="btn btn-outline btn-xl js-scroll-trigger">Scroll Down</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
             <div class="device-container">
-              <div class="device-mockup iphone6_plus portrait white">
+              <img src="https://via.placeholder.com/300"/>
+              <!-- <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
-                  <div class="screen">
+                  <div class="screen"> -->
                     <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
-                    <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
+                    <!-- <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
-                  <div class="button">
+                  <div class="button"> -->
                     <!-- You can hook the "home button" to some JavaScript events or just remove it -->
-                  </div>
+                  <!-- </div>
                 </div>
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
+    <section class="topics bg-primary text-center" id="topics">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
             <h2 class="section-heading" style="font-size:50px">Topics | หัวข้อที่นำมาวิเคราะห์</h2><br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 fade-on-scroll">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Technology</h5>
@@ -107,7 +129,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 fade-on-scroll">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Behavior</h5>
@@ -118,7 +140,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 fade-on-scroll">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Activity</h5>
@@ -164,128 +186,111 @@
             <div class="continer">
               <nav>
                 <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
-                  <a class="nav-item nav-link active" id="nav-ool-tab" data-toggle="tab" href="#nav-ool" role="tab" aria-controls="nav-ool" aria-selected="true">Object-Orirented Language</a>
+                  <a class="nav-item nav-link active" id="nav-ool-tab" data-toggle="tab" href="#nav-ool" role="tab" aria-controls="nav-ool" aria-selected="true">Object-Oriented Language</a>
                   <a class="nav-item nav-link" id="nav-js-tab" data-toggle="tab" href="#nav-js" role="tab" aria-controls="nav-js" aria-selected="false">JavaScript</a>
                   <a class="nav-item nav-link" id="nav-txt-tab" data-toggle="tab" href="#nav-txt" role="tab" aria-controls="nav-txt" aria-selected="false">Text Editor</a>
                   <a class="nav-item nav-link" id="nav-ide-tab" data-toggle="tab" href="#nav-ide" role="tab" aria-controls="nav-ide" aria-selected="false">Android IDE</a>
                   <a class="nav-item nav-link" id="nav-webserver-tab" data-toggle="tab" href="#nav-webserver" role="tab" aria-controls="nav-webserver" aria-selected="false">Web Server</a>
-                  <a class="nav-item nav-link" id="nav-cms-tab" data-toggle="tab" href="#nav-cms" role="tab" aria-controls="nav-cms" aria-selected="false">Content Managing System</a>
+                  <a class="nav-item nav-link" id="nav-cms-tab" data-toggle="tab" href="#nav-cms" role="tab" aria-controls="nav-cms" aria-selected="false">Content Management System</a>
                 </div>
               </nav>
               <div class="tab-content" id="nav-tabContent">
                 <div class="tab-pane fade show active" id="nav-ool" role="tabpanel" aria-labelledby="nav-ool-tab">
                   <object rel="preload" data="graph/ool.svg" type="image/svg+xml"></object>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed urna quam, efficitur ac tempor vitae, rhoncus non metus. Nam nec nulla quam. Integer eu erat nulla. Nunc et varius eros. Nullam aliquet, diam pellentesque sodales gravida, purus erat tincidunt mi, tincidunt malesuada dui neque et nisl. In in rhoncus tellus, sed suscipit enim. Donec consequat mi at pretium iaculis. Cras in magna a nisi fringilla sodales. Quisque imperdiet elit ac eros efficitur laoreet id quis neque. Nunc eu commodo neque. Integer quam ipsum, ullamcorper non quam sit amet, imperdiet gravida justo. Donec ante mi, ultrices eget ultrices eget, volutpat nec.</p>
                 </div>
 
                 <div class="tab-pane fade" id="nav-js" role="tabpanel" aria-labelledby="nav-js-tab">
                   <object rel="preload" data="graph/js_framework.svg" type="image/svg+xml"></object>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque feugiat dapibus turpis, at consequat dolor mollis id. Sed fringilla nulla efficitur quam rhoncus placerat. Donec porta elit eget dui accumsan interdum. Donec commodo risus vel mauris vehicula dictum nec sit amet lectus. Nullam id tincidunt sem. Vestibulum ac tortor felis. Mauris eleifend nisl ut mollis ornare. Maecenas mattis tincidunt neque. Quisque in lacus consequat, venenatis velit non, tincidunt velit. Curabitur mattis augue diam, nec ultricies libero maximus vitae. Mauris non odio vitae sem interdum ullamcorper eu a lectus. Proin eget nisi blandit, placerat leo non, convallis est. Curabitur et hendrerit.</p>
                 </div>
 
                 <div class="tab-pane fade" id="nav-txt" role="tabpanel" aria-labelledby="nav-txt-tab">
                   <object rel="preload" data="graph/text_editor.svg" type="image/svg+xml"></object>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultrices molestie neque sed aliquam. In interdum varius diam eu volutpat. Pellentesque convallis mollis orci, vel lacinia diam accumsan molestie. In auctor vitae mauris quis auctor. Vivamus rutrum dui eget velit lobortis consequat. Vivamus erat mauris, mattis non varius eu, maximus ut est. Nam cursus nisl nec augue porta elementum. Vivamus consequat enim odio, eget dapibus dui accumsan in. Sed pulvinar nulla in laoreet interdum. Curabitur vulputate odio ac augue pharetra vestibulum. Pellentesque vulputate enim lacus, id consectetur est fermentum non. Morbi eu consectetur odio. Praesent pulvinar id sapien sed aliquam.</p>
                 </div>
                 
                 <div class="tab-pane fade" id="nav-ide" role="tabpanel" aria-labelledby="nav-ide-tab">
                     <object rel="preload" data="graph/android_application.svg" type="image/svg+xml"></object>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius nisi vitae lectus fringilla, id lacinia odio accumsan. Nam laoreet, dui sit amet interdum dictum, dui felis commodo lectus, in gravida est ipsum nec metus. Nam porta mi orci, a volutpat ante semper sit amet. Sed imperdiet, arcu non venenatis condimentum, massa eros bibendum turpis, in imperdiet mauris nisi ut metus. Nullam commodo nisi vitae lacus suscipit lobortis. Maecenas porttitor erat neque. In hendrerit varius orci quis sagittis. Proin interdum dolor pulvinar augue iaculis tempor. Proin ut molestie purus. Fusce porttitor bibendum neque non pellentesque. Fusce semper nibh mi, vel.</p>
                 </div>
                 
                 <div class="tab-pane fade" id="nav-webserver" role="tabpanel" aria-labelledby="nav-webserver-tab">
                     <object rel="preload" data="graph/webserver.svg" type="image/svg+xml"></object>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam sed pretium velit. Ut ac nunc sit amet ex finibus gravida sed at quam. Sed condimentum lorem ac sagittis tempor. Pellentesque scelerisque iaculis nisl, ac feugiat enim posuere et. Phasellus in euismod ante. Maecenas nisl enim, cursus vel erat sit amet, condimentum rutrum ipsum. Mauris at tellus diam. Nulla a varius ex. Cras sed sem leo. Integer vitae nibh turpis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In sit amet ipsum nec nisi volutpat sodales. Maecenas ligula mi, tristique sit amet eros in, auctor eleifend.</p>
                 </div>
 
                 <div class="tab-pane fade" id="nav-cms" role="tabpanel" aria-labelledby="nav-cms-tab">
                     <object rel="preload" data="graph/cms.svg" type="image/svg+xml"></object>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sit amet massa ac ligula gravida fermentum ut id turpis. Nullam commodo blandit ligula, consectetur interdum tellus malesuada ut. Vivamus sit amet neque augue. In sed posuere lectus. Donec quis ante in dolor finibus mollis. Fusce id magna felis. Vestibulum varius, risus et congue elementum, neque neque ullamcorper augue, non ornare nisi dolor eget lorem. Duis tempus, metus sit amet semper condimentum, dui nulla placerat mi, in dapibus mi risus in lectus. Pellentesque porttitor nulla faucibus, ultrices tellus luctus, hendrerit leo. Nulla facilisi. Suspendisse potenti. Vestibulum ante ipsum primis in faucibus.</p>
                 </div>
 
               </div>
             </div>
+            <br><br>
             <hr>
+            <br><br>
           </div>
 
-          <span id="result_behavior"></span>
-          <div class="col-lg-12 my-auto">
-            <br><h3>Behavior | พฤติกรรมของผู้ใช้</h3>
-            <object data="graph/comments_context.svg" type="image/svg+xml"></object>
+          <div class="col-lg-12 my-auto" id="result_behavior">
+            <br><h3>Behavior | พฤติกรรมของผู้ใช้</h3><br>
+            <div class="continer">
+                <nav>
+                  <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                    <a class="nav-item nav-link active" id="nav-normal-tab" data-toggle="tab" href="#nav-normal" role="tab" aria-controls="nav-normal" aria-selected="true">0% - 100%</a>
+                    <a class="nav-item nav-link" id="nav-scaled-tab" data-toggle="tab" href="#nav-scaled" role="tab" aria-controls="nav-scaled" aria-selected="false">60% - 100%</a>
+                  </div>
+                </nav>
+                <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-normal" role="tabpanel" aria-labelledby="nav-normal-tab">
+                    <object rel="preload" data="graph/comments_context.svg" type="image/svg+xml"></object>
+                  </div>
+  
+                  <div class="tab-pane fade" id="nav-scaled" role="tabpanel" aria-labelledby="nav-scaled-tab">
+                    <object rel="preload" data="graph/comments_context_scaled.svg" type="image/svg+xml"></object>
+                  </div>
+  
+                </div>
+              </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer laoreet arcu non elementum facilisis. Nulla dapibus neque ac aliquam interdum. Vestibulum ex eros, sagittis a venenatis at, porttitor in massa. Praesent ornare odio lobortis felis molestie suscipit. Vivamus dignissim ultricies tellus eget finibus. Duis eros diam, molestie id libero ut, auctor feugiat ligula. Curabitur eu velit dolor. Quisque sollicitudin purus maximus, tempus leo sed, feugiat nisi. Vivamus sit amet sollicitudin ipsum. Morbi porttitor hendrerit efficitur. In vestibulum felis non faucibus faucibus. Integer lacus diam, mattis nec dictum non, vestibulum nec eros. Sed rhoncus commodo mollis. Aliquam bibendum est dolor, sed.</p> 
+            <br><br>
             <hr>
+            <br><br>
           </div>
 
-          <span id="result_activity"></span>
-          <div class="col-lg-12 my-auto">
-            <br><h3>Activity | กิจกรรมของผู้ใช้</h3>
+          <div class="col-lg-12 my-auto" id="result_activity">
+            <br><h3>Activity | กิจกรรมของผู้ใช้</h3><br>
             <object data="graph/user_activity.svg" type="image/svg+xml"></object>
-          </div>
-
-        </div>
-        <!-- <div class="row">
-          <div class="col-lg-4 my-auto">
-            <div class="device-container">
-            </div>
-          </div>
-          <div class="col-lg-12 my-auto">
-            <div class="container-fluid">
-              <center><object data="graph/user_activity.svg" type="image/svg+xml"></object>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <h3>การเข้าใช้ stack overflow</h3>
-                    <p class="text-muted">การใช้งาน stack overflow ในแต่ละเดือน (ระยะเวลา 10ปี)</p>
-                  </div>
-                </div>
-                <hr>
-                <object data="graph/comments_context.svg" type="image/svg+xml"></object>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <h3>การ comment ใน stack overflow</h3>
-                    <p class="text-muted">ข้อมูลการ comment (ระยะเวลา 10ปี)</p>
-                  </div>
-                </div>
-                <hr>
-                <object data="graph/oop.svg" type="image/svg+xml"></object>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <h3>ภาษาที่ใช้เขียน</h3>
-                    <p class="text-muted">Textbox</p>
-                  </div>
-                </div>
-                <hr>
-                <object data="graph/text_editor.svg" type="image/svg+xml"></object>
-                <div class="col-lg-6">
-                  <div class="feature-item">
-                    <h3>โปรแกรมที่ใช้เขียน</h3>
-                    <p class="text-muted">Textbox</p>
-                  </div>
-                </div>
-              </center>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut metus ac diam vestibulum fringilla. Donec vel lobortis nulla. Vestibulum fermentum enim mauris, quis tincidunt nulla luctus luctus. Nulla ultrices venenatis ante non sodales. Nulla pharetra augue eget libero efficitur scelerisque. Suspendisse ac velit non sapien sodales mattis eu non est. Maecenas eget fringilla leo, a tincidunt justo. Sed in dui et dolor pharetra consectetur ac eu arcu. Nam tempor quam tortor, vel varius libero aliquam eu. Ut eros quam, euismod et bibendum viverra, rutrum sed nulla. Duis rhoncus libero nec nisl consectetur, eget aliquam ligula dapibus. Nam vitae feugiat.</p>
           </div>
         </div>
-      </div> -->
     </section>
 
 
-    <section class="cta">
+    <section class="cta conclusion" id="conclusion">
       <div class="cta-content">
         <div class="container">
-          <h2>หน้าสรุป<br>Start building.</h2>
+          <h2>สรุปผลการวิเคราะห์</h2>
+          <!-- <h2>หน้าสรุป<br>Start building.</h2> -->
           <a href="#contact" class="btn btn-outline btn-xl js-scroll-trigger">Let's Get Started!</a>
         </div>
       </div>
       <div class="overlay"></div>
     </section>
 
-    <section class="contact bg-primary" id="contact">
+    <section class="contact github">
       <div class="container">
-        <h2>We
-          <i class="fas fa-heart"></i>
-          new friends!</h2>
+        <h3>Visit this project on GitHub!</h3>
         <ul class="list-inline list-social">
-            <a href="https://github.com/phwt/StackBehavior">
+            <!-- <a href="https://github.com/phwt/StackBehavior">
               <img src="img/github.svg" width="80px" height="80px">
+            </a> -->
+            <a href="https://github.com/phwt/StackBehavior" target="_BLANK">
+              <img class="hover-opacity" src="img/github.svg" width="50px" height="50px">
             </a>
-            <a href="https://github.com/phwt/StackBehavior">
+            <!-- <a href="https://github.com/phwt/StackBehavior">
               <img src="img/github.svg" width="80px" height="80px">
-            </a>
-            <a href="https://github.com/phwt/StackBehavior">
-              <img src="img/github.svg" width="80px" height="80px">
-            </a>
+            </a> -->
         </ul>
       </div>
     </section>
