@@ -15,13 +15,10 @@ Analyze user behavior based on the positive and negative context of the comments
 1. [X] **Query and Download data**
 2. [X] **Convert data into visualiztion-ready format**
 3. [X] **Data Visualization**
-4. [ ] **Data Analysis**
-   - [ ] Topics - *Working in Progress*
-   - [ ] Users' Activity - *Working in Progress*
-   - [X] Comments' context
+4. [X] **Data Analysis**
 5. [ ] **Presentation**
    - [ ] Website - *Working in Progress*
-   - [ ] Video
+   - [ ] Video - *Working in Progress*
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
