@@ -1,5 +1,12 @@
 ﻿ความนิยมทางเทคโนโลยี (Technology)
-- Object-Oriented Language
+- Language
+    การเติบโตของ Python นั้นกระทบตือ Java และ C++ มาก เพราะ Python นั้นสามารถเขียนได้ทั้งแบบ Procedural และ Object-Oriented และเป็นภาษา High-level เรียนรู้ได้ง่าย และมี Library ให้เลือกใช้หลายหมื่นตัว
+    เมื่อมาเทียบกับ Java และ C++ ที่อัตราของทั้งสองตัวนี้จะเติบโตเท่าๆกันแต่ Java จะสูงกว่าเสมอเนื่องจากการใช้งานที่ง่ายกว่าเพราะเป็นภาษา High-level แต่ก็ลดลงในเวลาต่อมาที่ Python ได้รับความนิยมมากขึ้น เพราะ Python สามารถเขียนทั้งแบบ Procedural และ Object-Oriented ได้ ใช้งานได้หลากหลายกว่า และ Java ก็ยังมีปัญหาด้าน Backward-compatibility ที่ทำให้เมื่อมีการเปลี่ยนเวอร์ชั่นแล้วต้องมาแก้ไขเพื่อให้้ใช้งานได้ต่อ
+
+    Cite:
+    - C++, Java, Python Pros and Cons - https://www.quora.com/What-are-the-pros-and-cons-vs-C++-Python-and-Java
+    - Python vs Java vs C++ - https://www.pixelstech.net/article/1505107866-Who%E2%80%99s-the-winner%3A-Python-vs-Java-C-C%2B%2B
+
 - JavaScript
     JavaScript เป็นหัวข้อที่นิยมมากที่สุดสุดของ StackOverflow โดยตลอดด้วยการใช้งานทั้งหมดจำนวน 1 ล้าน 7 แสนครั้ง(2018)
     ซึ่งถ้ามาดูในส่วนของของ JavaScript ก็คือ Framework หรือ Library ก็จะเห็น
@@ -18,6 +25,8 @@
     - Vue.js launch - http://blog.evanyou.me/2014/02/11/first-week-of-launching-an-oss-project/
 
 - Text Editor
+
+
 - Android IDE
     Eclipse เป็นหนึ่งใน Integrated Development Environment (IDE) ที่นิยมใช้ในการพัฒนาแอพพลิเคชั่น Android ในยุคก่อนๆ ซึ่งการเปิดตัวของ Android Studio ของ Google ซึ่งเป็น IDE ที่ทำมาเพื่อพัฒนาแอพพลิเคชั่น Android โดยตรงมีผลกระทบต่อ Eclipse ดังนี้
     2013 - Google เปิดตัว Android Studio พร้อมกับตัวโปรแกรมเวอร์ชั่น Beta ทำให้ความสนใจใน Eclipse ลดลงไปเหลือ ~1.0% จากเดิม ~1.1%
@@ -31,6 +40,15 @@
     - Support Ended - https://android-developers.googleblog.com/2016/11/support-ended-for-eclipse-android.html
 
 - Web Server
+    ในหัวข้อนี้เห็นได้ว่าทั้งสามระบบไม่ได้มีผลกระทบต่อกันอย่างชัดเจนตามช่วงเวลา ซึ่งสำหรับ Apache และ NGINX ก็เติบโตขึ้นเรื่อยๆแต่ Apache จะอยู่อันดับสูงกว่าเสมอ ถึงแม้ NGINX จะใช้ทรัพยากรน้อย แต่ Apache สามารถรอบรับหน้าเว็บแบบ Dynamic ที่เป็นแบบที่นิยมในปัจจุบันได้ดีกว่า รวมทั้งมีระบบ .htaccess ที่สามารถใช้ตั้งค่าแยกต่างหากได้อีก
+    สำหรับส่วนของ Internet Information Server (IIS) นั้นความนิยมลดลงมาตลอดซึ่งเป็นเพราะกาลงได้กับ Windows เท่านั้นและ Windows นั้นไม่ใช่ Open-Souce ซึ่งก็จะเป็นการเพิ่มค่าใช่จ่ายอีก ซึ่งข้อดีของ IIS คือมี GUI ที่ทำให้ใช้งานง่าย แต่ GUI ก็เป็นข้อเสียด้วยเพราะการตั้งค่านั้นต้องทำผ่าน GUI ทั้งหมดซึ่งจะทำให้การทำงานยุ่งยากขึ้นมาอีก จึงเป็นผลให้ความนิยมของ IIS ลดลงมาเรื่อนๆ
+
+    Cite:
+    - IIS Pros Cons - https://hilton.org.uk/iis-asp-perlscript-ado
+    - Apache vs NGINX - https://www.keycdn.com/support/nginx-vs-apache#Pros_and_Cons_of_Nginx_vs_Apache
+    - Apache vs NGINIX - https://www.plesk.com/blog/various/nginx-vs-apache-which-is-the-best-web-server/
+    - Apache, NGINIX, IIS Comparison - https://w3techs.com/technologies/comparison/ws-apache,ws-microsoftiis,ws-nginx
+
 - Content Management System
     2010 - ตั้งแต่ปี 2008 ทั้งสามได้เติบโตขึ้นเรื่อยๆตามปกติ ซึ่งความนิยมของ Drupal นั้นเกือบเท่า WordPress เลยทีเดียว
     2011 - WordPress และ Joomla เติบโตขึ้นแต่ไม่มาก แต่ความนิยม Drupal กลับลดลง เป็นเพราะในช่วงนั้นบริการเว็บไซต์สำเร็จรูปกำลังเป็นที่นิยม ทำให้เติบโตไม่มาก แต่ในส่วน Drupal ที่ลดลงเพราะเมื่อเทียบกับอีกสองตัวแล้วการใช้งานยากกว่าเพราะ Drupal เหมาะกับผู้พัฒนามากกว่าผู้ใช้ทั่วไป
