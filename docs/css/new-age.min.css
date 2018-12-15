@@ -6,6 +6,9 @@ body,html{
 body{
     font-family:Muli,Kanit,Helvetica,Arial,sans-serif
 }
+.fade-on-scroll{
+    opacity: 0;
+}
 a{
     /* #fdcc52 */
     color:black;

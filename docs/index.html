@@ -26,6 +26,23 @@
 
     <!-- Custom styles for this template -->
     <link href="css/new-age.min.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function() {
+        /* Every time the window is scrolled ... */
+        $(window).scroll( function(){
+            /* Check the location of each desired element */
+            $('.fade-on-scroll').each( function(i){
+                var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+                var bottom_of_window = $(window).scrollTop() + $(window).height();
+                /* If the object is completely visible in the window, fade it it */
+                if( bottom_of_window > bottom_of_object ){
+                    $(this).animate({'opacity':'1'},500);  
+                }  
+            }); 
+        });
+      });
+    </script>
 
   </head>
 
@@ -42,7 +59,7 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Topics</a>
+              <a class="nav-link js-scroll-trigger" href="#topics">Topics</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#results">Results</a>
@@ -51,7 +68,7 @@
               <!-- <a class="nav-link js-scroll-trigger" href="#graph">Graph</a> -->
             <!-- </li> -->
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Conclusion</a>
+              <a class="nav-link js-scroll-trigger" href="#conclusion">Conclusion</a>
             </li>
           </ul>
         </div>
@@ -68,7 +85,7 @@
                 A <b>StackOverflow</b> data analysis project<br>
                 โครงานวิเคราะห์ข้อมูลเว็บไซต์ <b>StackOverflow</b>
               </p>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Interested? Let's Go!</a>
+              <a href="#topics" class="btn btn-outline btn-xl js-scroll-trigger">Interested? Let's Go!</a>
             </div>
           </div>
           <div class="col-lg-5 my-auto">
@@ -90,13 +107,13 @@
       </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
+    <section class="topics bg-primary text-center" id="topics">
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
             <h2 class="section-heading" style="font-size:50px">Topics | หัวข้อที่นำมาวิเคราะห์</h2><br>
             <div class="row">
-              <div class="col-md-4">
+              <div class="col-md-4 fade-on-scroll">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Technology</h5>
@@ -107,7 +124,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 fade-on-scroll">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Behavior</h5>
@@ -118,7 +135,7 @@
                 </div>
               </div>
 
-              <div class="col-md-4">
+              <div class="col-md-4 fade-on-scroll">
                 <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Activity</h5>
@@ -245,7 +262,7 @@
     </section>
 
 
-    <section class="cta">
+    <section class="cta conclusion" id="conclusion">
       <div class="cta-content">
         <div class="container">
           <h2>หน้าสรุป<br>Start building.</h2>
@@ -255,7 +272,7 @@
       <div class="overlay"></div>
     </section>
 
-    <section class="contact" id="contact">
+    <section class="contact github">
       <div class="container">
         <h3>Visit this project on GitHub!</h3>
         <ul class="list-inline list-social">
