@@ -70,6 +70,7 @@ section h2:lang(th){
 }
 #mainNav .navbar-brand{
     color:white;
+    opacity: 0;
     font-family:Catamaran,Helvetica,Arial,sans-serif;
     font-weight:200;
     letter-spacing:1px
@@ -125,7 +126,8 @@ section h2:lang(th){
         background-color:#fff
     }
     #mainNav.navbar-shrink .navbar-brand{
-        color:#222
+        color:#222;
+        opacity: 1;
     }
     #mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{
         color:coral
@@ -144,9 +146,13 @@ header.masthead{
     padding-bottom:100px;
     color:#fff;
     /* url(../img/bg-pattern.png) */
-    background:#7b4397;
-    background:-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430));
-    background:linear-gradient(to left,#7b4397,#dc2430)
+    /* background:#7b4397; */
+    /* background:-webkit-gradient(linear,right top,left top,from(#7b4397),to(#dc2430)); */
+    /* background:linear-gradient(to left,#7b4397,#dc2430) */
+    /* background: #EC7C23; */
+    background:-webkit-gradient(linear,right top,left top,from(#EC7C23),to(#B6B5B5));
+    background:linear-gradient(to left,#6C3910,#bc5d10,#EC7C23)
+    /* background:linear-gradient(to left,#6C3910,#EC7C23) */
 }
 header.masthead .header-content{
     max-width:500px;
