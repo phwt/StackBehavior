@@ -49,7 +49,7 @@ section h2{
     letter-spacing:1px
 }
 #mainNav .navbar-brand{
-    color:#fdcc52;
+    color:white;
     font-family:Catamaran,Helvetica,Arial,sans-serif;
     font-weight:200;
     letter-spacing:1px
@@ -69,7 +69,8 @@ section h2{
     text-transform:uppercase
 }
 #mainNav .navbar-nav>li>a.active{
-    color:#fdcc52!important;
+    color:coral!important;
+    /* font-weight: 1000; */
     background-color:transparent
 }
 #mainNav .navbar-nav>li>a.active:hover{
@@ -107,7 +108,7 @@ section h2{
         color:#222
     }
     #mainNav.navbar-shrink .navbar-brand:focus,#mainNav.navbar-shrink .navbar-brand:hover{
-        color:#fdcc52
+        color:coral
     }
     #mainNav.navbar-shrink .navbar-nav>li>a,#mainNav.navbar-shrink .navbar-nav>li>a:focus{
         color:#222
@@ -319,9 +320,9 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
     text-decoration:none
 }
 .bg-primary{
-    background:#fdcc52;
-    background:-webkit-gradient(linear,left top,left bottom,from(#fdcc52),to(#fdc539));
-    background:linear-gradient(#fdcc52,#fdc539)
+    background:#fdcc52 !IMPORTANT;
+    /* background:-webkit-gradient(linear,left top,left bottom,from(#fdcc52),to(#fdc539)); */
+    /* background:linear-gradient(#fdcc52,#fdc539) */
 }
 .text-primary{
     color:#fdcc52
