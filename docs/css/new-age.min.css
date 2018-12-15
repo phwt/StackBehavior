@@ -7,13 +7,17 @@ body{
     font-family:Muli,Kanit,Helvetica,Arial,sans-serif
 }
 a{
-    color:#fdcc52;
+    /* #fdcc52 */
+    color:black;
     -webkit-transition:all .35s;
     transition:all .35s
 }
 a:focus,a:hover{
-    color:#fcbd20
+    color:coral
 }
+a[aria-selected=true] {
+    color: coral !IMPORTANT;
+  }
 hr{
     /* max-width:100px; */
     margin:25px auto 0;
@@ -60,7 +64,7 @@ section h2:lang(th){
     letter-spacing:1px
 }
 #mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{
-    color:#fcbd20
+    color:coral
 }
 #mainNav .navbar-toggler{
     font-size:12px;
@@ -85,7 +89,7 @@ section h2:lang(th){
     color:#222
 }
 #mainNav .navbar-nav>li>a:focus:hover,#mainNav .navbar-nav>li>a:hover{
-    color:#fdcc52
+    color:coral
 }
 @media (min-width:992px){
     #mainNav{
@@ -119,7 +123,7 @@ section h2:lang(th){
         color:#222
     }
     #mainNav.navbar-shrink .navbar-nav>li>a:focus:hover,#mainNav.navbar-shrink .navbar-nav>li>a:hover{
-        color:#fdcc52
+        color:coral
     }
 }
 header.masthead{

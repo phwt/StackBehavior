@@ -94,46 +94,46 @@
       <div class="container">
         <div class="row">
           <div class="col-md-8 mx-auto">
-            <h2 class="section-heading" style="font-size:50px">Topics หัวข้อที่นำมาวิเคราะห์</h2><br>
+            <h2 class="section-heading" style="font-size:50px">Topics | หัวข้อที่นำมาวิเคราะห์</h2><br>
             <div class="row">
               <div class="col-md-4">
-                <div class="card" style="">
+                <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Technology</h5>
                     <h6 class="card-subtitle mb-2 text-muted">ความนิยมทางเทคโนโลยี</h6>
                     <p class="card-text">นำแท็กที่ผู้ใช้ใส่ไว้กับคำถาม มาวิเคราะห์ถึงความนิยมด้านเทคโนโลยีต่างๆ</p>
-                    <button class="btn btn-secondary">ดูผลการวิเคราะห์</button>
+                    <a class="js-scroll-trigger" href="#results"><button class="btn btn-secondary">ดูผลการวิเคราะห์</button></a>
                   </div>
                 </div>
               </div>
 
               <div class="col-md-4">
-                <div class="card" style=>
-                  <div class="card-body">
-                    <h5 class="card-title">Activity</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">กิจกรรมของผู้ใช้</h6>
-                    <p class="card-text">วิเคราะห์ถึงความเปลี่ยนแปลงของกิจกรรมของผู้ใช้ในแต่ละเดือน</p>
-                    <button class="btn btn-secondary">ดูผลการวิเคราะห์</button>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="card" style="">
+                <div class="card">
                   <div class="card-body">
                     <h5 class="card-title">Behavior</h5>
                     <h6 class="card-subtitle mb-2 text-muted">พฤติกรรมของผู้ใช้</h6>
                     <p class="card-text">วิเคราะห์พฤติกรรมของผู้ใช้ผ่านข้อมูลการแสดงความคิดเห็นทั้งหมดของผู้ใช้</p>
-                    <button class="btn btn-secondary">ดูผลการวิเคราะห์</button>
+                    <a class="js-scroll-trigger" href="#result_behavior"><button class="btn btn-secondary">ดูผลการวิเคราะห์</button></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="card">
+                  <div class="card-body">
+                    <h5 class="card-title">Activity</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">กิจกรรมของผู้ใช้</h6>
+                    <p class="card-text">วิเคราะห์ถึงความเปลี่ยนแปลงของกิจกรรมของผู้ใช้ในแต่ละเดือน</p>
+                    <a class="js-scroll-trigger" href="#result_activity"><button class="btn btn-secondary">ดูผลการวิเคราะห์</button></a>
                   </div>
                 </div>
               </div>
             </div>
             <!-- <p>วัตถุประสงค์ของโครงงาน</p> -->
-            <div class="badges">
+            <!-- <div class="badges"> -->
               <!-- <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a> -->
               <!-- <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a> -->
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </div>
@@ -154,10 +154,69 @@
     <section class="results" id="results">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>ผลลัพธ์</h2>
-          <hr>
+          <h2>Results | ผลลัพธ์</h2>
+          <hr><br>
         </div>
-        <div class="row">
+
+        <div class="row text-center">
+          <div class="col-lg-12 my-auto">
+            <h3>Technology | ความนิยมทางเทคโนโลยี</h3><br>
+            <div class="continer">
+              <nav>
+                <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="nav-ool-tab" data-toggle="tab" href="#nav-ool" role="tab" aria-controls="nav-ool" aria-selected="true">Object-Orirented Language</a>
+                  <a class="nav-item nav-link" id="nav-js-tab" data-toggle="tab" href="#nav-js" role="tab" aria-controls="nav-js" aria-selected="false">JavaScript</a>
+                  <a class="nav-item nav-link" id="nav-txt-tab" data-toggle="tab" href="#nav-txt" role="tab" aria-controls="nav-txt" aria-selected="false">Text Editor</a>
+                  <a class="nav-item nav-link" id="nav-ide-tab" data-toggle="tab" href="#nav-ide" role="tab" aria-controls="nav-ide" aria-selected="false">Android IDE</a>
+                  <a class="nav-item nav-link" id="nav-webserver-tab" data-toggle="tab" href="#nav-webserver" role="tab" aria-controls="nav-webserver" aria-selected="false">Web Server</a>
+                  <a class="nav-item nav-link" id="nav-cms-tab" data-toggle="tab" href="#nav-cms" role="tab" aria-controls="nav-cms" aria-selected="false">Content Managing System</a>
+                </div>
+              </nav>
+              <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active" id="nav-ool" role="tabpanel" aria-labelledby="nav-ool-tab">
+                  <object rel="preload" data="graph/ool.svg" type="image/svg+xml"></object>
+                </div>
+
+                <div class="tab-pane fade" id="nav-js" role="tabpanel" aria-labelledby="nav-js-tab">
+                  <object rel="preload" data="graph/js_framework.svg" type="image/svg+xml"></object>
+                </div>
+
+                <div class="tab-pane fade" id="nav-txt" role="tabpanel" aria-labelledby="nav-txt-tab">
+                  <object rel="preload" data="graph/text_editor.svg" type="image/svg+xml"></object>
+                </div>
+                
+                <div class="tab-pane fade" id="nav-ide" role="tabpanel" aria-labelledby="nav-ide-tab">
+                    <object rel="preload" data="graph/android_application.svg" type="image/svg+xml"></object>
+                </div>
+                
+                <div class="tab-pane fade" id="nav-webserver" role="tabpanel" aria-labelledby="nav-webserver-tab">
+                    <object rel="preload" data="graph/webserver.svg" type="image/svg+xml"></object>
+                </div>
+
+                <div class="tab-pane fade" id="nav-cms" role="tabpanel" aria-labelledby="nav-cms-tab">
+                    <object rel="preload" data="graph/cms.svg" type="image/svg+xml"></object>
+                </div>
+
+              </div>
+            </div>
+            <hr>
+          </div>
+
+          <span id="result_behavior"></span>
+          <div class="col-lg-12 my-auto">
+            <br><h3>Behavior | พฤติกรรมของผู้ใช้</h3>
+            <object data="graph/comments_context.svg" type="image/svg+xml"></object>
+            <hr>
+          </div>
+
+          <span id="result_activity"></span>
+          <div class="col-lg-12 my-auto">
+            <br><h3>Activity | กิจกรรมของผู้ใช้</h3>
+            <object data="graph/user_activity.svg" type="image/svg+xml"></object>
+          </div>
+
+        </div>
+        <!-- <div class="row">
           <div class="col-lg-4 my-auto">
             <div class="device-container">
             </div>
@@ -198,7 +257,7 @@
               </center>
           </div>
         </div>
-      </div>
+      </div> -->
     </section>
 
 
@@ -233,7 +292,7 @@
 
     <footer>
       <div class="container">
-        <p>&copy; Your Website 2018. All Rights Reserved.</p>
+        <p>&copy; 2018 <b>StackBehavior</b> team</p>
         <ul class="list-inline">
           <li class="list-inline-item">
             <a href="#">Privacy</a>
