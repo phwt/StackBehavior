@@ -122,6 +122,7 @@ section h2:lang(th){
     }
     #mainNav.navbar-shrink{
         border-top: 3px solid coral;
+        border-bottom: 1px solid #dbdcdc;
         /* border-color:rgba(34,34,34,.1); */
         background-color:#fff
     }
