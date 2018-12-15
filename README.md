@@ -18,7 +18,7 @@ Analyze user behavior based on the positive and negative context of the comments
 4. [ ] **Data Analysis**
    - [ ] Topics - *Working in Progress*
    - [ ] Users' Activity - *Working in Progress*
-   - [ ] Comments' context - *Working in Progress*
+   - [X] Comments' context
 5. [ ] **Presentation**
    - [ ] Website - *Working in Progress*
    - [ ] Video
