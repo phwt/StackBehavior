@@ -15,7 +15,7 @@ a:focus,a:hover{
     color:#fcbd20
 }
 hr{
-    max-width:100px;
+    /* max-width:100px; */
     margin:25px auto 0;
     border-width:1px;
     border-color:rgba(34,34,34,.1)
@@ -38,7 +38,11 @@ section{
     padding:100px 0
 }
 section h2{
-    font-size:50px
+    font-size:50px;
+    /* font-weight:300 */
+}
+section h2:lang(th){
+    font-size:150px !IMPORTANT
 }
 #mainNav{
     border-color:rgba(34,34,34,.05);
