@@ -1,0 +1,9 @@
+﻿จุดประสงค์
+- 
+
+ที่มาข้อมูล (ก๊อปมาจากใน README.md)
+- StackExchange Public DataSet - StackOverflow
+https://archive.org/download/stackexchange
+Data Range - 2008 Q3 - 2018 Q3* (10 Years)
+Total Size - 59.87 GB
+* 2018 Q4 Data is excluded because of incomplete data.
