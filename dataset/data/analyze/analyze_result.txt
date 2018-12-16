@@ -34,7 +34,7 @@
     2015 - ในปีนี้ได้มีการเปิดตัว Visual Studio Code ซึ่งได้รับความสนใจมากกว่าตัวอื่นๆตอนเปิดตัวอย่างมาก และทำให้ความนิยมของ Sublime Text ตกลงไปเพราะความเหนือกว่าของ Visual Studio Code ทั้งในด้านการสนับสนุนภาษาที่มากกว่า และมี Marketplace สำหรับเลือกดูส่วนขยายได้อย่างง่าย ซึ่งก็ดีกว่า Sublime Text ไปในเกือบทุกด้าน
     2018 - ความนิยมของ Visual Studio Code สูงกว่าโปรแกรมตัวอื่นอย่างมาก ทำให้ความนิยมตัวอื่นๆนั้นลดลงไปเรื่อยๆตามๆกัน แต่ในสำหรับตัว Atom ตั้งแต่เปิดตัวมาได้เติบโตมาตลอดไม่ได้มีการลดลงแต่อย่างไร
 
-    Cite:
+    Cite:   
     - Vim Pros and Cons - https://hackernoon.com/pros-and-cons-of-vim-in-2018-e15e59e35933
     - Sublime Text vs Notepad++ - https://news.ycombinator.com/item?id=14918288
     - VSCode vs Sublime Text - https://news.codecademy.com/visual-studio-code-sublime-text/
