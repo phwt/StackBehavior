@@ -348,7 +348,8 @@ footer ul li a.active,footer ul li a:active,footer ul li a:focus,footer ul li a:
     text-decoration:none
 }
 .bg-primary{
-    background:#fdcc52 !IMPORTANT;
+    /* background:#fdcc52 !IMPORTANT; */
+    background: #ffa45a !IMPORTANT;
     /* background:-webkit-gradient(linear,left top,left bottom,from(#fdcc52),to(#fdc539)); */
     /* background:linear-gradient(#fdcc52,#fdc539) */
 }
