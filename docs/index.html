@@ -63,6 +63,21 @@
         font-weight: bold;
         text-align: right;
       }
+      @media only screen and (max-width: 1024px) {
+        /* For mobile phones: */
+        object#main-logo{
+          width: 90%;
+          text-align: center;
+        }
+        #top-header, h2.section-heading{
+          font-size:55px !IMPORTANT;
+        }
+      }
+      @media only screen and (max-width: 340px) {
+        #top-header, h2.section-heading{
+          font-size:45px !IMPORTANT;
+        }
+      }
     </style>
   </head>
 
@@ -98,12 +113,12 @@
       </div>
     </nav>
 
-    <header class="masthead">
+    <header class="masthead" width="100%">
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <span class="mb-5" style="font-family:Catamaran;margin: 0px !IMPORTANT;font-weight: 400;font-size: 65px">stack<b style="font-weight: 600">behavior</b></span>
+              <span class="mb-5" id="top-header" style="font-family:Catamaran;margin: 0px !IMPORTANT;font-weight: 400;font-size: 65px">stack<b style="font-weight: 600">behavior</b></span>
               <p>
                 A <b>Stack Overflow</b> data analysis project<br>
                 <span style="font-weight: 300">โครงานวิเคราะห์ข้อมูลเว็บไซต์</span> <b>Stack Overflow</b>
@@ -112,8 +127,8 @@
             </div>
           </div>
           <div class="col-lg-5 my-auto">
-            <div class="device-container">
-              <img src="https://via.placeholder.com/300"/>
+            <div class="device-container text-center">
+              <object rel="preload" id="main-logo" data="img/sb_icon_wt.svg" width="150%" type="image/svg+xml"></object>
             </div>
           </div>
         </div>
@@ -123,7 +138,7 @@
     <section class="topics bg-primary text-center" id="topics">
       <div class="container">
         <div class="row">
-          <div class="col-md-10 mx-auto">
+          <div class="col-md-12 mx-auto">
             <h2 class="section-heading" style="font-size:50px">Topics | หัวข้อที่นำมาวิเคราะห์</h2><br>
             <div class="row">
               <div class="col-md-4 fade-on-scroll">
