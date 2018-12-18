@@ -46,7 +46,8 @@ Install the required library
 * `convert` - Python files for converting raw data into visualization ready format
 * `visualize` - Python files for data visualization
 * `docs` - Project's site
-\***Notes** - All the path is set to relative to the project's root directory. (`./StackBehavior/...`)
+
+\* **Notes** - All the path is set to relative to the project's root directory. (`./StackBehavior/...`)
 
 ## Authors
 * นายภูวทิตต์ สัมมาวิวัฒน์ - 61070173 - [phwt](https://github.com/phwt)
