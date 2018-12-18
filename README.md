@@ -17,6 +17,8 @@ Analyze how time in a year affect user's activity on the site.
 * [View on our site](https://phwt.github.io/StackBehavior/)
 * [View on YouTube](https://www.youtube.com/watch?v=0eT0Aw0En2s)
 
+### [View Analyzation results here!](https://phwt.github.io/StackBehavior/)
+
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
 * **`badges`** - Acquired badges  - 1.19 GB
