@@ -1,27 +1,19 @@
 # StackBehavior
-Data Analysis project for analyzing questions, answers, comments and overall user's behavior on the StackOverflow site.
+Data Analysis project for analyzing questions, answers, comments and overall user's behavior on the Stack Overflow site.
 
-## Objectives
-### Programming Topics' popularity over time
+## Topics
+### Programming Topics' popularity over years
 Analyze topics popularity by tag(s) defined in asked questions.
-
-### Average user activity in a year
-Analyze how time in a year affect user's activity on the site.
 
 ### Comments' Positive and Negative context
 Analyze user behavior based on the positive and negative context of the comments.
 
-## To-do
-1. [X] **Query and Download data**
-2. [X] **Convert data into visualiztion-ready format**
-3. [X] **Data Visualization**
-4. [ ] **Data Analysis**
-   - [ ] Topics - *Working in Progress*
-   - [ ] Users' Activity - *Working in Progress*
-   - [ ] Comments' context - *Working in Progress*
-5. [ ] **Presentation**
-   - [ ] Website - *Working in Progress*
-   - [ ] Video
+### Average user activity in a year
+Analyze how time in a year affect user's activity on the site.
+
+## Results
+* [View on our site!](https://phwt.github.io/StackBehavior/)
+* [View on YouTube](https://www.youtube.com/watch?v=0eT0Aw0En2s)
 
 ## Data Sources
 #### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
@@ -31,16 +23,27 @@ Analyze user behavior based on the positive and negative context of the comments
 * **`post_answers`** - Submitted Answer - 20.17 GB
 * **`tags`** - Used tags in questions - 2.08 MB
 * **`users`** - User's info - 1.4 GB
-##### Data Range - 2008 Q3 - 2018 Q3* (10 Years)
+##### Data Range - 2008 - 2018
 ##### Total Size - 59.87 GB
-\* 2018 Q4 Data is excluded because of incomplete data.
 
 ## Built-With
 * Python `3.7.0`
-    * pygal `2.0.0`
+    * pygal `2.4.0`
 * Google Cloud Platform
     * BigQuery
-    * Storage
+    
+## Development Setup
+Install the required library
+
+    pip install pygal
+    
+### Directory Structure
+* `dataset`
+  * `data` - Raw and converted data
+  * `query` - BigQuery query method
+* `convert` - Python files for converting raw data into visualization ready format
+* `visualize` - Python files for data visualization
+* `docs` - Project's site
 
 ## Authors
 * นายภูวทิตต์ สัมมาวิวัฒน์ - 61070173 - [phwt](https://github.com/phwt)
