@@ -25,8 +25,8 @@ Analyze how time in a year affect user's activity on the site.
 * **`post_answers`** - Submitted Answer - 20.17 GB
 * **`tags`** - Used tags in questions - 2.08 MB
 * **`users`** - User's info - 1.4 GB
-##### Data Range - 2008 - 2018
-##### Total Size - 59.87 GB
+**Data Range** - 2008 - 2018
+**Total Size** - 59.87 GB (Estimated)
 
 ## Built-With
 * Python `3.7.0`
