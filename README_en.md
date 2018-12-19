@@ -1,3 +1,5 @@
+[**EN**/[TH](https://github.com/phwt/StackBehavior/blob/master/README.md)]
+
 # StackBehavior
 Data Analysis project for analyzing questions, answers, comments and overall user's behavior on the Stack Overflow site.
 
