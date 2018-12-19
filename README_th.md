@@ -36,27 +36,34 @@
 **ขนาดโดยรวม** - 59.87 GB (โดยประมาณ)
 
 ## Built-With
+> เครื่องมือที่ใช้
+
 * Python `3.7.0`
     * pygal `2.4.0`
 * Google Cloud Platform
     * BigQuery
     
 ## Development Setup
-Install the required library
+> การตั้งค่าเพื่อการพัฒนา
+
+ลงไลบราลีจะเป็น
 
     pip install pygal
     
 ### Directory Structure
+> โครงสร้างไดเรกทอรี
 * `dataset`
-  * `data` - Raw and converted data
-  * `query` - BigQuery query method
-* `convert` - Python files for converting raw data into visualization ready format
-* `visualize` - Python files for data visualization
-* `docs` - Project's site
+  * `data` - ข้อมูลดิบ และข้อมูลที่ประมวลผลแล้ว
+  * `query` - กระบวนการ Query ข้อมูลผ่าน BigQuery
+* `convert` - ไฟล์สำหรับแปลงข้อมูลดิบเป็นข้อมูลสำหรับการการแปลงเป็นกราฟ
+* `visualize` - ไฟล์สำหรับแปลงข้อมูลเป็นกราฟ
+* `docs` - เว็บไซต์ของโครงงาน
 
-**Notes** - All the path is set to relative to the project's root directory. (`./StackBehavior/...`)
+**หมายเหตุ** - ที่อยู่ของไฟล์ทั้งหมดนั้นตั้งไว้ตรงกับรูทไดเรกทอรีของโครงงานทั้งหมด (`./StackBehavior/...`)
 
 ## Authors
+> ผู้จัดทำ
+
 * นายภูวทิตต์ สัมมาวิวัฒน์ - 61070173 - [phwt](https://github.com/phwt)
 * นายวีรพงศ์ ทันจันทึก - 61070213 - [veerapong76](https://github.com/veerapong76)
 * นายณภัทร พรบุญเรือง - 61070044 - [61070044](https://github.com/61070044)
