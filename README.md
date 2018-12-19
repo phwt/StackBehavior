@@ -1,3 +1,5 @@
+[[EN](https://github.com/phwt/StackBehavior/blob/master/README_en.md)/**TH**]
+
 # StackBehavior
 โครงงานวิเคราะห์ข้อมูลเว็บไซต์ Stack Overflow ผ่านคำถาม, คำตอบ, ความคิดเห็น และพฤติกรรมโดยรวมของผู้ใช้บนเว็บไซต์
 
