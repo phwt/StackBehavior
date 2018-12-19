@@ -1,10 +1,10 @@
 # StackBehavior
 Data Analysis project for analyzing questions, answers, comments and overall user's behavior on the Stack Overflow site.
 
-*This project was a part of Problem Solving in Information Technology (06016314) - King Mongkut's Institute of Technology Ladkrabang*
+*This project is a part of Problem Solving in Information Technology (06016314) - King Mongkut's Institute of Technology Ladkrabang*
 
 ## Topics
-### Programming Topics' popularity over years
+### Programming Topics' popularity over the years
 Analyze topics popularity by tag(s) defined in asked questions.
 
 ### Comments' Positive and Negative context
