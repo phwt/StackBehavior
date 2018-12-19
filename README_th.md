@@ -1,7 +1,7 @@
 # StackBehavior
 โครงงานวิเคราะห์ข้อมูลเว็บไซต์ Stack Overflow ผ่านคำถาม, คำตอบ, ความคิดเห็น และพฤติกรรมโดยรวมของผู้ใช้บนเว็บไซต์
 
-*โครงงานนี้เป็นส่วนหนึ่งของรายวิชาการแก้ปัญหาทางด้านเทคโนโลยีสารสนเทศ (06016314) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง*
+* โครงงานนี้เป็นส่วนหนึ่งของรายวิชาการแก้ปัญหาทางด้านเทคโนโลยีสารสนเทศ (06016314) สถาบันเทคโนโลยีพระจอมเกล้าเจ้าคุณทหารลาดกระบัง
 
 ## Topics
 > ห้อข้อในการวิเคราะห์
@@ -10,29 +10,30 @@
 วิเคราะห์ความนิยมจากแท็กที่ผู้ใช้ใส่ไว้กับคำถามในแต่ละตัว
 
 ### พฤติกรรมของผู้ใช้ผ่านบริบทของความคิดเห็นที่แสดง
+วิเคราะห์พฤติกรรมของผู้ใช้ผ่านบริบทเชิงบวกและเชิงลบ ของความคิดเห็นที่แสดงลงบนคำถามและคำตอบ
 
-### Comments' Positive and Negative context
-Analyze user behavior based on the positive and negative context of the comments.
-
-### Average user activity in a year
-Analyze how time in a year affect user's activity on the site.
+### กิจกรรมของผู้ใช้โดยเฉลี่ยต่อปี
+วิเคราะห์ว่าช่วงเวลาในแต่ละปีนั้นส่งผลกระทบต่อกิจกรรมของผู้ใช้อย่างไร
 
 ## Results
-* [View on our site](https://phwt.github.io/StackBehavior/)
-* [View on YouTube](https://www.youtube.com/watch?v=0eT0Aw0En2s)
+> ผลการวิเคราะห์
+
+* [ดูผ่านเว็บไซต์](https://phwt.github.io/StackBehavior/)
+* [ดูผ่าน YouTube](https://www.youtube.com/watch?v=0eT0Aw0En2s)
 
 ## Data Sources
-#### [StackExchange Public DataSet - StackOverflow](https://archive.org/download/stackexchange)
-* `badges` - Acquired badges  - 1.19 GB
-* `comments` - Posted Comments - 12.01 GB
-* `post_questions` - Submitted Question - 25.10 GB
-* `post_answers` - Submitted Answer - 20.17 GB
-* `tags` - Used tags in questions - 2.08 MB
-* `users` - User's info - 1.4 GB
+> แหล่งที่มาของข้อมูล
+#### [ข้อมูลสาธารณะเว็บไซต์เครือ StackExchange - StackOverflow](https://archive.org/download/stackexchange)
+* `badges` - เหรียญตราที่ได้รับ  - 1.19 GB
+* `comments` - ความคิดเห็นที่แสดง - 12.01 GB
+* `post_questions` - คำถามที่ถูกถาม - 25.10 GB
+* `post_answers` - คำตอบที่ตอบ - 20.17 GB
+* `tags` - แท็กที่ใส่ลงในคำถาม - 2.08 MB
+* `users` - ข้อมูลผู้ใช้ - 1.4 GB
 
-**Data Range** - 2008 - 2018
+**ช่วงเวลาของข้อมูล** - 2008 - 2018
 
-**Total Size** - 59.87 GB (Estimated)
+**ขนาดโดยรวม** - 59.87 GB (โดยประมาณ)
 
 ## Built-With
 * Python `3.7.0`
